@@ -10,6 +10,7 @@
 
   File                     = {:refs\\SSRN-id872440.pdf:PDF},
   Owner                    = {Gustavo},
+  Series                   = {Working Paper Series},
   Timestamp                = {2015.04.12}
 }
 
@@ -26,30 +27,226 @@
   Timestamp                = {2015.04.12}
 }
 
-@Article{bevilaqua_transmission,
-  Title                    = {Transmission Mechanisms for Monetary Policy in Emerging Market Economies},
-  Author                   = {Bevilaqua, Afonso and Mesquita, Mário and Minella, André},
-  Journal                  = {Bank for International Settlements},
-  Year                     = {2007},
-  Note                     = {Paper n. 35},
+@Article{bevilaqua,
+  Title                    = {Transmission mechanisms for monetary policy in emerging market economies},
+  Author                   = {Afonso Bevilaqua and Mário Mesquita and André Minella},
+  Journal                  = {Revista Economia e Sociedade},
+  Year                     = {2008},
 
-  File                     = {:refs\\bispap35.pdf:PDF},
-  Owner                    = {Gustavo},
-  Timestamp                = {2015.04.12}
+  Month                    = {Maio},
+  Number                   = {35},
+
+  Abstract                 = {This volume, which is a follow-up to BIS Policy Paper No 3 (January 1998), analyses the major changes in monetary policy transmission in the emerging market economies (EMEs) over the past decade and highlights a number of implications. It is based on two days of discussions among senior central bankers at a meeting at the BIS in December 2006. Fiscal dominance has been largely overcome and monetary policy frameworks are now more credible. The overview paper finds that central banks have become more flexible in their operations. The interest rate channels of monetary policy have become much stronger, and the relative importance of some of the traditional channels such as the credit channel has declined, at least in normal times. Better monetary policies have resulted in lower and less volatile inflation in most EMEs. An analysis of the transmission of monetary policy to longterm interest rates notes that the impact of the policy rates on long-term rates has been moderated by more stable inflation expectations, which has allowed central banks to be less aggressive in adjusting policies. External factors appear to be exerting an increasing influence on domestic long-term rates. A related analysis finds that greater globalisation has resulted in domestic short-term rates being significantly affected by foreign interest rates, particularly in countries with high capital mobility and with managed exchange rates. Finally, the pass-through from exchange rate changes to domestic inflation has fallen since 2001, while the sensitivity of inflation to foreign price changes has increased.},
+  Publisher                = {Bank for International Settlements},
+  Series                   = {BIS Papers}
 }
 
-@TechReport{clarida_monetary_rules,
-  Title                    = {Monetary Policy Rules in Practice: Some International Evidence},
-  Author                   = {Richard Clarida and Jordi Gali and Mark Gertler},
-  Institution              = {National Bureau of Economic Research},
-  Year                     = {1997},
-  Month                    = {November},
-  Number                   = {6254},
-  Type                     = {Working Paper},
+@Article{clarida_mon_policy,
+  Title                    = {Monetary policy rules in practice Some international evidence},
+  Author                   = {Clarida, Richard and Gali, Jordi and Gertler, Mark},
+  Journal                  = {European Economic Review},
+  Year                     = {1998},
 
-  Abstract                 = {This paper reports estimates of monetary policy reaction functions for two sets of" countries: the G3 (Germany, Japan, and the U.S.) and the E3 (UK, France that since 1979 each of the G3 central banks has pursued an implicit form of inflation targeting which may account for the broad success of monetary policy in those countries over this time" period. The evidence also suggests that these central banks have been forward looking: they" respond to anticipated inflation as opposed to lagged inflation. As for the E3 emergence of the influenced by German" monetary policy. Further, using the Bundesbank's policy rule as a benchmark time of the EMS collapse, interest rates in each of the E3 countries were much higher than" domestic macroeconomic conditions warranted. Taken all together, the results lend support to" the view that some form of inflation targeting may under certain circumstances be superior to" fixing exchange rates, as a means to gain a nominal anchor for monetary policy."},
-  Doi                      = {10.3386/w6254},
-  Series                   = {Working Paper Series},
-  Url                      = {http://www.nber.org/papers/w6254}
+  Month                    = {Junho},
+  Number                   = {6},
+  Pages                    = {1033-1067},
+  Volume                   = {42},
+
+  Abstract                 = {This paper reports estimates of monetary policy reaction functions for two sets of countries: the G3 (Germany, Japan and the United States) and the E3 (France, Italy and the United Kingdom). It finds that since 1979 each of the G3 central banks has pursued an implicit form of inflation targeting, which may account for the broad success of monetary policy in those countries over this time period. The evidence also suggests that these central banks have been forward looking: they respond to anticipated inflation as opposed to lagged inflation. As for the E3, even prior to the emergence of the ‘hard ERM’, the E3 central banks were heavily influenced by German monetary policy. Further, using the Bundesbank’s policy rule as a benchmark, we find that at the time of the EMS collapse, interest rates in each of the E3 countries were much higher than domestic macroeconomic conditions warranted. Taken all together, the results lend support to the view that some form of inflation targeting may be superior to fixing exchange rates, as a means of gaining a nominal anchor for monetary policy.<P>(This abstract was borrowed from another version of this item.)}
+}
+
+@Article{cukierman_smooth,
+  Title                    = {Why does the Fed smooth interest rates?},
+  Author                   = {Alex Cukierman},
+  Journal                  = {Proceedings},
+  Year                     = {1989},
+  Pages                    = {111-157},
+
+  Abstract                 = {No abstract is available for this item.},
+  Keywords                 = {Monetary policy ; Interest rates ; Federal Reserve System ; Econometric models}
+}
+
+@Article{cukierman_muscatelli,
+  Title                    = {Nonlinear Taylor Rules and Asymmetric Preferences in Central Banking: Evidence from the United Kingdom and the United States},
+  Author                   = {Alex Cukierman and Anton Muscatelli},
+  Journal                  = {The B.E. Journal of Macroeconomics},
+  Year                     = {2008},
+
+  Month                    = {Fevereiro},
+  Number                   = {1},
+  Pages                    = {1-31},
+  Volume                   = {8},
+
+  Abstract                 = {This paper explores theoretically and empirically the view that Taylor rules are often nonlinear due to asymmetric central bank preferences, and that the nature of these asymmetries changes across different policy regimes. The theoretical model uses a standard new Keynesian framework to establish equivalence relations between the shape of nonlinearities in Taylor rules and asymmetries in monetary policy objectives. These relations are estimated and tested for the United Kingdom (UK) and the United States (US) over various subperiods by means of smooth transition regressions.There is often evidence in favor of nonlinear rules in both countries, and their character changes substantially over subperiods. The period preceding inflation targeting in the UK is characterized by a concave rule supporting dominant recession avoidance preferences, while the inflation targeting period is characterized by a convex rule supporting dominant inflation avoidance preferences on the part of policymakers. Dominant inflation avoidance appears during the Vietnam War in the US while, during the Burns/Miller and the Greenspan periods, recession avoidance dominates. Under Volcker the Taylor rule is linear. This is consistent with an offset by inflation avoidance of the more prevalent recession avoidance of the Fed.Findings from both countries support the view that reaction functions and the asymmetry properties of the underlying loss functions change in line with the regime and the main macroeconomic problem of the day.}
+}
+
+@Article{drago_ribeiro,
+  Title                    = {Indicadores para Projeção do Nível de Atividade Econômica no Brasil},
+  Author                   = {Alessandro Del Drago and Gustavo de Paula Ribeiro},
+  Journal                  = {Seminário sobre Crescimento Econômico: Ministério da Fazenda e Banco Interamericano de Desenvolvimento},
+  Year                     = {2013}
+}
+
+@Article{fischer_why,
+  Title                    = {Why are central banks pursuing long-run price stability?},
+  Author                   = {Stanley Fischer},
+  Journal                  = {Proceedings - Economic Policy Symposium - Jackson Hole},
+  Year                     = {1996},
+  Pages                    = {7-34},
+
+  Abstract                 = {No abstract is available for this item.},
+  Keywords                 = {Banks and banking; Central ; Prices ; Inflation (Finance)}
+}
+
+@TechReport{fischer_modern,
+  Title                    = {Modern Approaches to Central Banking},
+  Author                   = {Stanley Fischer},
+  Institution              = {National Bureau of Economic Research, Inc},
+  Year                     = {1995},
+  Month                    = {Março},
+  Number                   = {5064},
+  Type                     = {NBER Working Papers},
+
+  Abstract                 = {Modern theory has delivered both the conservative central banker and the principal-agent approaches as rationales for the independence of the central bank. The principal-agent approach directs attention to the importance of both clearly defining the goals of the central bank and its command in order to meet the targets assigned to it. The empirical evidence shows not only that greater independence is associated with lower inflation, but also that the central bank's rights not to finance the government and to set interest rates independently increase its effectiveness. The role of inflation targeting and the distinction between price level and inflation targeting are also analyzed.}
+}
+
+@Article{gerlach,
+  Title                    = {The Taylor rule and interest rates in the EMU Area: a note},
+  Author                   = {Stefan Gerlach and Gert Schnabel},
+  Journal                  = {BIS Working Paper},
+  Year                     = {1999},
+  Number                   = {No. 73},
+
+  Owner                    = {Gustavo},
+  Timestamp                = {2015.06.14}
+}
+
+@Article{judd_rudebusch,
+  Title                    = {Taylor's rule and the Fed, 1970-1997},
+  Author                   = {John P. Judd and Glenn D. Rudebusch},
+  Journal                  = {Economic Review},
+  Year                     = {1998},
+  Pages                    = {3-16},
+
+  Abstract                 = {This paper estimates a simple model of the Federal Reserve's \&quot;reaction function\&quot; - that is, the relationship between economic developments and the fed's response to them. We focus on how this estimated reaction function has changed over time. Such changes are not surprising given compositional changes in the Federal Open Market Committee, and we consider three subsamples delineated by the terms of recent fed Chairmen. We find that the estimated reaction functions for each period vary in ways that seem broadly consistent with the success or failure during the period at controlling inflation. These results suggest that a Taylor-rule framework is a useful way to summarize key elements of monetary policy.},
+  Keywords                 = {Monetary policy - United States ; Federal Open Market Committee ; Federal funds market (United State}
+}
+
+@Article{mendonca,
+  Title                    = {Mecanismos de transmissão monetária e a determinação da taxa de juros: uma aplicação da regra de Taylor ao caso brasileiro},
+  Author                   = {Mendon{\c c}a, Helder Ferreira de},
+  Journal                  = {Revista Economia e Sociedade},
+  Year                     = {2001},
+
+  Month                    = {Janeiro},
+  Pages                    = {17},
+  Volume                   = {16},
+
+  Abstract                 = {With the return of the flexible exchange regime in the beginning of 1999, the search for the new nominal anchor awakened the monetary economists to a new question: how to conduct the monetary policy in Brazil? The use of inflation targets since June 1999 did not solve the problem because it did not define an efficient interest rate strategy. This paper analyzes the main types of monetary transmission mechanisms found in the literature in regards to the Brazilian case. Last but not least important, it applies a version of Taylor´s rule to the Brazilian monetary policy.},
+  Keywords                 = {Monetary transmission mechanism; Interest rate; Taylor´s rule.}
+}
+
+@TechReport{mishkin_inflation_targeting,
+  Title                    = {Inflation Targeting in Emerging Market Countries},
+  Author                   = {Frederic S. Mishkin},
+  Institution              = {National Bureau of Economic Research, Inc},
+  Year                     = {2000},
+  Month                    = {Agosto},
+  Number                   = {7618},
+  Type                     = {NBER Working Papers},
+
+  Abstract                 = {This paper outlines what inflation targeting involves for emerging market/transition countries and discusses the advantages and disadvantages of this monetary policy strategy. The discussion suggests that although inflation targeting is not a panacea and may not be appropriate for many emerging market countries, it can be a highly useful monetary policy strategy in a number of them.}
+}
+
+@TechReport{oecd_2012,
+  Title                    = {OECD System of Composite Leading Indicators},
+  Author                   = {OECD},
+  Institution              = {Short-term Economic Statistics Division, Statistics Directorate},
+  Year                     = {2012},
+
+  Owner                    = {Gustavo}
+}
+
+@TechReport{oecd_1997,
+  Title                    = {Business Tendency Surveys: A Handbook},
+  Author                   = {OECD},
+  Institution              = {OECD/GD(97)58, General Distribution},
+  Year                     = {1997},
+
+  Owner                    = {Gustavo},
+  Timestamp                = {2015.06.14}
+}
+
+@TechReport{pagano_rossi,
+  Title                    = {Uma análise da não-linearidade da função de reação do Banco Central do Brasil: Avesso a Inflação ou a Recessão?},
+  Author                   = {Pagano, Terence de A. and Rossi, José Luiz J.},
+  Institution              = {Insper Working Paper, Insper Instituto de Ensino e Pesquisa},
+  Year                     = {2009},
+  Month                    = {Outubro},
+  Number                   = {wpe_188},
+  Type                     = {Insper Working Papers},
+
+  Abstract                 = {No abstract is available for this item.}
+}
+
+@Article{rigolon_giambiagi,
+  Title                    = {A atuação do Banco Central em uma economia estabilizada: é desejável adotar metas inflacionárias no Brasil?},
+  Author                   = {Francisco Rigolon and Fabio Giambiagi},
+  Journal                  = {Revista de Economia Política},
+  Year                     = {1999},
+  Number                   = {19(3)},
+  Pages                    = {3-22}
+}
+
+@TechReport{aragon_portugal,
+  Title                    = {Nonlinearities in Central Bank of Brazil’s reaction function: the case of asymmetric preferences},
+  Author                   = {Edilean Kleber da Silva Bejarano Arag{\'o}n and Marcelo Savino Portugal},
+  Institution              = {ANPEC - Associação Nacional dos Centros de Pósgraduação em Economia [Brazilian Association of Graduate Programs in Economics]},
+  Year                     = {2008},
+  Number                   = {200807151356590},
+  Type                     = {Anais do XXXVI Encontro Nacional de Economia [Proceedings of the 36th Brazilian Economics Meeting]},
+
+  Abstract                 = {No abstract is available for this item.},
+  File                     = {:refs\\200807151356590-.pdf:PDF}
+}
+
+@Article{taylor_mon_pol,
+  Title                    = {Policy Rules as a Means to a More Effective Monetary Policy},
+  Author                   = {John B. Taylor},
+  Journal                  = {Monetary and Economic Studies},
+  Year                     = {1996},
+
+  Month                    = {Julho},
+  Number                   = {1},
+  Pages                    = {28-39},
+  Volume                   = {14},
+
+  Abstract                 = {This paper reviews recent developments in the design of monetary policy rules and shows that there are several key similarities between interest rate rules and money supply rules.In particular,both types of rule entail a positive response of interest rates to real output.The paper also shows why setting targets and using policy rules to achieve those targets can make monetary policy more effective.},
+  Keywords                 = {Monetary policy; Policy rule; Inflation target; Price stability; Output stability; Time inconsistenc}
+}
+
+@Article{taylor_1993,
+  Title                    = {Discretion versus policy rules in practice},
+  Author                   = {Taylor, John B.},
+  Journal                  = {Carnegie-Rochester Conference Series on Public Policy},
+  Year                     = {1993},
+
+  Month                    = {Dezembro},
+  Number                   = {1},
+  Pages                    = {195-214},
+  Volume                   = {39},
+
+  Abstract                 = {No abstract is available for this item.}
+}
+
+@Article{ullrich,
+  Title                    = {A Comparison Between the Fed and the ECB: Taylor Rules},
+  Author                   = {Katrin Ullrich},
+  Journal                  = {ZEW Discussion Paper},
+  Year                     = {2003},
+  Number                   = {03-19},
+
+  Owner                    = {Gustavo},
+  Timestamp                = {2015.06.14}
 }
 

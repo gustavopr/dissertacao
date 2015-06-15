@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2015.4.12)  8 JUN 2015 20:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2015.4.12)  14 JUN 2015 23:40
 entering extended mode
 **DissertaÃ§Ã£o.tex
 (D:\Documents\Dissertacao\latex\DissertaÃ§Ã£o.tex
@@ -857,6 +857,24 @@ Package graphics Info: Driver file: dvips.def on input line 91.
 \Gin@req@height=\dimen155
 \Gin@req@width=\dimen156
 )
+
+! LaTeX Error: Option clash for package setspace.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 
+     
+The package setspace has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [onehalfspacing]
+Adding the global options:
+  ,onehalfspacing
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 (C:\Users\Gustavo\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count162
@@ -1137,8 +1155,8 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks39
 )
-Package color Info: Redefining color blue on input line 61.
-Package hyperref Info: Option `colorlinks' set `true' on input line 78.
+Package color Info: Redefining color blue on input line 62.
+Package hyperref Info: Option `colorlinks' set `true' on input line 79.
 \DissertaÃ§Ã£o@idxfile=\write4
 
 Writing index file DissertaÃ§Ã£o.idx 
@@ -1163,7 +1181,7 @@ Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ******************************************************
 
 ! Undefined control sequence.
-l.107 \onehalfspacing
+l.108 \onehalfspacing
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1172,26 +1190,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 (D:\Documents\Dissertacao\latex\DissertaÃ§Ã£o.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 113.
  ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 112.
+Package hyperref Info: Link coloring ON on input line 113.
 
 ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1203,39 +1221,39 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 112.
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
 \myptabbox=\box55
 \myptabboxwidth=\skip273
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 130.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 131.
 ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 130.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 131.
  ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 130.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 131.
  ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 130.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 131.
 
 ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 130.
+(Font)              <12> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 130.
+(Font)              <8> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 130.
+(Font)              <6> on input line 131.
  [1
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 135.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 136.
 
 ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1243,29 +1261,17 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 4.
 ) [2]
+[3] [4]
+Overfull \hbox (1.38753pt too wide) in paragraph at lines 200--201
+[][][][][][][] \T1/lmr/m/n/10.95 ([][][][][][]) co-le-tam evi-dên-cias de que a exis-
+ []
 
-LaTeX Warning: Citation `areosa_econometrics' on page 3 undefined on input line 177.
+[5] [6]
+Overfull \hbox (38.91745pt too wide) in paragraph at lines 243--244
+\T1/lmr/m/n/10.95 Novo Key-ne-si-ano li-near de pre-ços rí-gi-dos, con-forme ex-posto por [][][][][][]
+ []
 
-[3]
-
-LaTeX Warning: Citation `areosa_target' on page 4 undefined on input line 187.
-
-
-LaTeX Warning: Citation `bevilaqua_transmission' on page 4 undefined on input line 189.
-
-[4] [5] [6]
-
-! Package xkeyval Error: `left' undefined in families `Gin'.
-
-See the xkeyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...cao/imagens/funcao_perda_assimetrica.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[7] [8]
 
 ! LaTeX Error: Cannot determine size of graphic in D:/Documents/Dissertacao/imagens/funcao_perda_assimetrica.png (no Bou
 ndingBox).
@@ -1274,15 +1280,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.279 ...cao/imagens/funcao_perda_assimetrica.png}
+l.298 ...cao/imagens/funcao_perda_assimetrica.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: D:/Documents/Dissertacao/imagens/funcao_perda_assimetrica.png Graphic file (type eps)
-<D:/Documents/Dissertacao/imagens/funcao_perda_assimetrica.png> [7]
+<D:/Documents/Dissertacao/imagens/funcao_perda_assimetrica.png>
 ! Undefined control sequence.
-l.295 		AE_tf^'[.] + \lambdaE
+l.315 		AE_tf^'[.] + \lambdaE
                              _th^'[.] = 0, t = 0, 1, 2, ...,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1290,10 +1296,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[9]
 ! Undefined control sequence.
 <argument> \varphiAE 
                      _0f_0^{''}[.] + \lambda (\varphi \lambda + b)E_0h_0^{''...
-l.303 ...E_0f_0^{''}[.] + \lambda^2E_0h_0^{''}[x]}
+l.323 ...E_0f_0^{''}[.] + \lambda^2E_0h_0^{''}[x]}
                                                    \equiv \frac{\varphiAE_0f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1304,7 +1311,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \varphiAE 
                      _0f_0^{''}[.] + \lambda (\varphi \lambda + b)E_0h_0^{''...
-l.303 ...phi\lambda + b)E_0h_0^{''}[.]}{\varphi D}
+l.323 ...phi\lambda + b)E_0h_0^{''}[.]}{\varphi D}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1312,11 +1319,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[8]
 ! Undefined control sequence.
 <argument> dE_0\x 
                   _1
-l.311 		\frac{di_0}{dE_0\x_1}
+l.331 		\frac{di_0}{dE_0\x_1}
                               = \frac{1}{\varphi} \frac{A(1+\varphi\lambdaE_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1327,14 +1333,14 @@ and I'll forget about whatever was undefined.
 ! Double subscript.
 <recently read> \mathsub 
                          
-l.311 		\frac{di_0}{dE_0\x_1}
+l.331 		\frac{di_0}{dE_0\x_1}
                               = \frac{1}{\varphi} \frac{A(1+\varphi\lambdaE_...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Undefined control sequence.
 <argument> A(1+\varphi \lambdaE 
                                 _0f_0^{''}[.] + \lambda ^2(1 + \varphi \lamb...
-l.311 ...1 + \varphi\lambda + b)E_0h_0^{''}[.]}{D}
+l.331 ...1 + \varphi\lambda + b)E_0h_0^{''}[.]}{D}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1342,6 +1348,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[10]
 
 ! Class memoir Error: Font command \it is not supported.
 
@@ -1349,13 +1356,12 @@ See the memoir class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.336 ... do banqueiro central, um modelo STR (\it
+l.356 ... do banqueiro central, um modelo STR (\it
                                                   {Smooth Transition Regress...
 Use \textit, or \itshape{...}, or the oldfontcommands option
 
-[9]
 ! Undefined control sequence.
-l.339 		i_t^* = X_t \Beta
+l.359 		i_t^* = X_t \Beta
                           + X_t \alpha_\pi \theta(\Gamma,c,z_{t-d}^\pi) + X_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1363,56 +1369,347 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Citation `areosa_econometrics' on page 10 undefined on input line 342.
-
-
-LaTeX Warning: Citation `areosa_econometrics' on page 10 undefined on input line 359.
-
-[10]
+[11] [12]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 371.
+(Font)              <9> on input line 391.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 371.
- [11]
+(Font)              <5> on input line 391.
+ [13] [14] (D:\Documents\Dissertacao\latex\DissertaÃ§Ã£o.bbl
 
-LaTeX Warning: Citation `areosa_target' on page 12 undefined on input line 400.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
 
-[12] [13]
-Overfull \hbox (3.35817pt too wide) in paragraph at lines 426--427
-[]\T1/lmr/m/n/10.95 FISCHER, Stan-ley, 1996. \T1/lmr/bx/n/10.95 Why are Cen-tral Banks Pur-suing Long-
- []
+bibitemlist
 
-[14] [15]
-Overfull \hbox (76.61224pt too wide) in paragraph at lines 456--489
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...ction: the case of asymmetric preferences}
+                                                  .
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:ção not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...IBEIRO, G. de P. Indicadores para projeção
+                                                   do nível de
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:íve not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...G. de P. Indicadores para projeção do níve
+                                                  l de
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54   atividade econô
+                      mica no brasil.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:ári not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56   Interamericano de Desenvolvimento}
+                                         , 2013.}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56   Interamericano de Desenvolvimento}
+                                         , 2013.}
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char \u8:éri not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56   Interamericano de Desenvolvimento}
+                                         , 2013.}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ãom not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ... C}A, H. F.~d. Mecanismos de transmissão m
+                                                  onetária e a determinação
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ári not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 .... F.~d. Mecanismos de transmissão monetári
+                                                  a e a determinação
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ção not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ... de transmissão monetária e a determinação
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ção not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72   da taxa de juros: uma aplicação
+                                       da regra de taylor ao caso brasileiro.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:áli not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84   Recessão?}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ão- not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84   Recessão?}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ção not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84   Recessão?}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ção not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84   Recessão?}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ção not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84   Recessão?}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ão? not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84   Recessão?}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ção not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 {RIGOLON, F.; GIAMBIAGI, F. A atuação
+                                           do banco central em uma economia
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:éde not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90   estabilizada: é de
+                         sejável adotar metas inflacionárias no brasil?
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:áve not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90   estabilizada: é desejáve
+                               l adotar metas inflacionárias no brasil?
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:ári not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...ada: é desejável adotar metas inflacionári
+                                                  as no brasil?
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:íti not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 \emph{Revista de Economia Política}
+                                        , n. 19(3), p. 3--22, 1999.}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[15]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 {SURICO, P. The fed’
+                         s monetary policy rule and u.s. inflation: The case of
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+) [16]
+Overfull \hbox (76.61224pt too wide) in paragraph at lines 478--511
  [][] 
  []
 
-[16]
+[17]
 \tf@toc=\write5
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 493.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 515.
 \BKM@file=\write6
  (D:\Documents\Dissertacao\latex\DissertaÃ§Ã£o.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 493.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 493.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 515.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 515.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 515.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 336 ({)
+### simple group (level 1) entered at line 356 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17238 strings out of 493922
- 283385 string characters out of 3144893
- 469346 words of memory out of 3000000
- 20334 multiletter control sequences out of 15000+200000
- 63411 words of font info for 48 fonts, out of 3000000 for 9000
+ 17334 strings out of 493922
+ 285300 string characters out of 3144893
+ 473025 words of memory out of 3000000
+ 20428 multiletter control sequences out of 15000+200000
+ 60416 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,12n,37p,10384b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,37p,10384b,633s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on DissertaÃ§Ã£o.dvi (16 pages, 64520 bytes).
+Output written on DissertaÃ§Ã£o.dvi (17 pages, 95272 bytes).

@@ -12,12 +12,12 @@ l_hiato = @(x) lambda * (exp(gamma * x) - gamma * x - 1)./gamma^2;
 
 subplot(1,2,1);
 fplot(l_hiato,[-1.5,2.5],'color','black');
-n=get(gca,'xtick');
-set(gca,'xticklabel',sprintf('%.1f |',n'));
-n=get(gca,'ytick');
-set(gca,'yticklabel',sprintf('%.1f |',n'));
+%n=get(gca,'xtick');
+%set(gca,'xticklabel',sprintf('%.1f |',n'));
+%n=get(gca,'ytick');
+%set(gca,'yticklabel',sprintf('%.1f |',n'));
 
-xlabel('Desvio em relação ao produto potencial'); % x-axis label
+xlabel('(a)'); % x-axis label
 ylabel('Perda'); % y-axis label
 
 legend('gamma = -1.0');
@@ -28,12 +28,12 @@ l_hiato = @(pi) (exp(alfa * pi) - alfa * pi - 1)./alfa^2;
 
 subplot(1,2,2);
 fplot(l_hiato,[-2.5,1.5],'color','black');
-n=get(gca,'xtick');
-set(gca,'xticklabel',sprintf('%.1f |',n'));
-n=get(gca,'ytick');
-set(gca,'yticklabel',sprintf('%.1f |',n'));
+%n=get(gca,'xtick');
+%set(gca,'xticklabel',sprintf('%.1f |',n'));
+%n=get(gca,'ytick');
+%set(gca,'yticklabel',sprintf('%.1f |',n'));
 
-xlabel('Desvio da inflação com relação à meta'); % x-axis label
+xlabel('(b)'); % x-axis label
 ylabel('Perda'); % y-axis label
 
 legend('alfa = 1.0');

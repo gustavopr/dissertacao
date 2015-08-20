@@ -210,6 +210,16 @@
   File                     = {:refs\\200807151356590-.pdf:PDF}
 }
 
+@Article{surico,
+  Title                    = {The Fed’s monetary policy rule and U.S. inflation: The case of asymmetric preferences},
+  Author                   = {Paolo Surico},
+  Journal                  = {Journal of Economic Dynamics \& Control},
+  Year                     = {2006},
+
+  Owner                    = {Gustavo},
+  Timestamp                = {2015.06.14}
+}
+
 @Article{taylor_mon_pol,
   Title                    = {Policy Rules as a Means to a More Effective Monetary Policy},
   Author                   = {John B. Taylor},
@@ -237,6 +247,19 @@
   Volume                   = {39},
 
   Abstract                 = {No abstract is available for this item.}
+}
+
+@Article{terasvirta,
+  Title                    = {Specification, Estimation, and Evaluation of Smooth Transition Autoregressive Models},
+  Author                   = {Timo Terasvirta},
+  Journal                  = {Journal of the American Statistical Association},
+  Year                     = {1944},
+  Number                   = {425},
+  Pages                    = {208-218},
+  Volume                   = {89},
+
+  Owner                    = {Gustavo},
+  Timestamp                = {2015.08.02}
 }
 
 @Article{ullrich,

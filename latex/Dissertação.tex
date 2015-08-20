@@ -1,4 +1,3 @@
-
 \documentclass[
 	% -- opções da classe memoir --
 	article,			% indica que é um artigo acadêmico
@@ -27,6 +26,15 @@
 \usepackage{graphicx}			% Inclusão de gráficos
 \graphicspath{ {imagens/} }
 \RequirePackage[onehalfspacing]{setspace}
+\usepackage[breaklinks = true]{hyperref} 
+
+% tabelas
+\usepackage{booktabs}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
 % ---
 		
 % ---
@@ -52,7 +60,13 @@
 \titulo{Não-linearidade na Função Reação\\ do Banco Central do Brasil}
 \autor{Gustavo de Paula Ribeiro}
 \local{Brasil}
-\data{Junho de 2015}
+\data{2015}
+\orientador{Marco Lyrio}
+\instituicao{%
+  Insper - Instituto de Ensino e Pesquisa
+  \par
+  Mestrado em Macroeconomia Aplicada}
+\tipotrabalho{Dissertação}
 % ---
 
 % ---
@@ -67,9 +81,9 @@
      	%pagebackref=true,
 		pdftitle={\@title}, 
 		pdfauthor={\@author},
-    	pdfsubject={Tese Insper},
+    	pdfsubject={Dissertacao Insper},
 	    pdfcreator={Gustavo de Paula Ribeiro},
-		pdfkeywords={abnt}{latex}{abntex}{abntex2}{atigo científico}, 
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
 		colorlinks=true,       		% false: boxed links; true: colored links
     	linkcolor=blue,          	% color of internal links
     	citecolor=blue,        		% color of links to bibliography
@@ -80,11 +94,19 @@
 \makeatother
 % --- 
 
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
 % ---
 % compila o indice
 % ---
 \makeindex
 % ---
+
+
 
 % ---
 % Altera as margens padrões
@@ -118,21 +140,185 @@
 % ----------------------------------------------------------
 % ELEMENTOS PRÉ-TEXTUAIS
 % ----------------------------------------------------------
+% \pretextual
 
-%---
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+
+
+
+% ---
+% Inserir a ficha bibliografica
+% ---
+
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
+% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
+% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
+% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
+% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
+% o conteúdo de implementação deste arquivo pelo comando abaixo:
 %
-% Se desejar escrever o artigo em duas colunas, descomente a linha abaixo
-% e a linha com o texto ``FIM DE ARTIGO EM DUAS COLUNAS''.
-% \twocolumn[    		% INICIO DE ARTIGO EM DUAS COLUNAS
+% \begin{fichacatalografica}
+%     \includepdf{fig_ficha_catalografica.pdf}
+% \end{fichacatalografica}
+
+\begin{fichacatalografica}
+	\sffamily
+	\vspace*{\fill}					% Posição vertical
+	\begin{center}					% Minipage Centralizado
+	\fbox{\begin{minipage}[c][8cm]{13.5cm}		% Largura
+	\small
+	\imprimirautor
+	%Sobrenome, Nome do autor
+	
+	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
+	\imprimirlocal, \imprimirdata-
+	
+	\hspace{0.5cm} \pageref{LastPage} p. : il. (algumas color.) ; 30 cm.\\
+	
+	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
+	
+	\hspace{0.5cm}
+	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
+	\imprimirdata.}\\
+	
+	\hspace{0.5cm}
+		1. Palavra-chave1.
+		2. Palavra-chave2.
+		2. Palavra-chave3.
+		I. Orientador.
+		II. Universidade xxx.
+		III. Faculdade de xxx.
+		IV. Título 			
+	\end{minipage}}
+	\end{center}
+\end{fichacatalografica}
+% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
 %
-%---
-% página de titulo
-\maketitle
-\thispagestyle{empty}
+% \includepdf{folhadeaprovacao_final.pdf}
+%
+\begin{folhadeaprovacao}
+
+  \begin{center}
+    {\ABNTEXchapterfont\large\imprimirautor}
+
+    \vspace*{\fill}\vspace*{\fill}
+    \begin{center}
+      \ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+    \end{center}
+    \vspace*{\fill}
+    
+    \hspace{.45\textwidth}
+    \begin{minipage}{.5\textwidth}
+        \imprimirpreambulo
+    \end{minipage}%
+    \vspace*{\fill}
+   \end{center}
+        
+   
+
+   \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
+   \assinatura{\textbf{Professor} \\ Convidado 1}
+   \assinatura{\textbf{Professor} \\ Convidado 2}
+   %\assinatura{\textbf{Professor} \\ Convidado 3}
+   %\assinatura{\textbf{Professor} \\ Convidado 4}
+      
+   \begin{center}
+    \vspace*{0.5cm}
+    {\large\imprimirlocal}
+    \par
+    {\large\imprimirdata}
+    \vspace*{1cm}
+  \end{center}
+  
+\end{folhadeaprovacao}
+% ---
+
+% ---
+% Dedicatória
+% ---
+\pagebreak
+\begin{dedicatoria}
+   \vspace*{\fill}
+   \centering
+   \noindent
+   \textit{ `` In the long run we are all dead.'' 	
+	— John Maynard Keynes } \vspace*
+	{\fill}
+\end{dedicatoria}
+% ---
+
+% ---
+% Agradecimentos
+% ---
+\pagebreak
+\begin{agradecimentos}
+À minha família, pela base a partir da qual cresci. 
+
+À minha namorada, pelo apoio e parceria.
+
+\end{agradecimentos}
+% ---
+
+
+% ---
+% RESUMOS
+% ---
+\pagebreak
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+ O Brasil possui um regime de metas de inflação relativamente novo, e caracterizá-lo a partir da definição das preferências do Banco Central do Brasil (BCB) se mostra tarefa pertinente. Neste trabalho de pesquisa, espera-se caracterizar o BCB a partir da análise de possíveis não linearidades em sua função reação através da estimação de modelos da classe \textit{Smooth Transition Rregression} com a utilização de variáveis endógenas.
+
+ %\textbf{Palavras-chave}: aaa. bbb. ccc.
+\end{resumo}
+
+% resumo em inglês
+\pagebreak
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+   Brazil has a relatively new inflation targeting system, and to characterize it under the definition of the preferences of the Central Bank of Brazil (BCB) is a task of relevance. This work expects to characterize the BCB analyzing the existence of possible nonlinearities in its reaction function by estimating models of the class of \textit{Smooth Transition Rregression} with the use of endogenous variables.
+
+   \vspace{\onelineskip}
+ 
+   \noindent 
+   %\textbf{Keywords}: aaa. bbb. ccc.
+ \end{otherlanguage*}
+\end{resumo}
+
+% LISTAS
+\pagebreak
+\begin{KeepFromToc}
+  \tableofcontents
+\end{KeepFromToc}
 \pagebreak
 
 \begin{KeepFromToc}
-  \tableofcontents
+  \def\@tocrmarg{2.55em plus 3em}
+	\listoftables
+\end{KeepFromToc}
+\pagebreak
+
+\begin{KeepFromToc}
+  \listoffigures
 \end{KeepFromToc}
 \pagebreak
 
@@ -288,15 +474,15 @@
 	
 	Assim, ao analisar graficamente a função perda dada por (\ref{eq_aragon_portugal}), com os valores de $\gamma$ e $\alpha$ assumidos acima, tem-se que a perda relacionada a um hiato do produto negativo é maior do que a relacionada ao mesmo hiato do produto positivo, enquanto a perda relacionada a desvios positivos da inflação à meta é maior que a desvios negativos da inflação à meta, para cada desvio absoluto.
 		
-			
-	%\begin{figure}
-  %\includegraphics[height=2cm,keepaspectratio,left]{D:/Documents/Dissertacao/imagens/funcao_perda_assimetrica.png}
-	%\caption{Função de reação do banco central assimétrica ao hiato do produto e a desvios da inflação em torno da meta}
-	%\end{figure}
-	
-	\begin{figure}
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+
+	\begin{figure}[!h]
 	\includegraphics[scale=0.7]{D:/Documents/Dissertacao/imagens/funcao_perda_assimetrica.png}
-	\caption{Função de reação do banco central assimétrica ao hiato do produto $(a)$ e a desvios da inflação em torno da meta $(b)$}
+	\caption{Função de reação do banco~central~assimétrica~ao hiato~do produto~$(a)$ e~a~desvios~da~inflação~em~torno~da~meta~$(b)$}
 	\label{fig:funcao reacao assimetrica}
 	\end{figure}
 	
@@ -339,7 +525,7 @@
 		i_t^* = \bar{i} + \beta E_t(\pi_{t+k} - \pi^*) + \Phi x_{t-j}
 	\end{equation}
 	
-	Aqui, $E_t(\pi_{t+k} - \pi^*)$ representa o desvio esperado da inflação em relação à meta $k$ períodos à frente, $x_{t-j}$ representa o hiato do produto com $j$ defasagens e $\bar{i}$ é a taxa de juros nominal vigente. Para observar a possibilidade de suavização dos movimentos de taxa de juros, é adotado um mecanismo de ajuste parcial, conforme \citeonline{cukierman_smooth}:
+	Aqui, $E_t(\pi_{t+k} - \pi^*)$ representa o desvio esperado da inflação em relação à meta $k$ períodos à frente, $x_{t-j}$ representa o hiato do produto com $j$ defasagens e $\bar{i}$ é uma constante, representando a taxa de juros neutra da economia. Para observar a possibilidade de suavização dos movimentos de taxa de juros, é adotado um mecanismo de ajuste parcial, conforme \citeonline{cukierman_smooth}:
 		
 	\begin{equation}
 		i_t = \rho i_{t-1} + (1-\rho) i_t^*
@@ -347,19 +533,60 @@
 	%
 	onde $\rho$ é um coeficiente que indica o grau de suavização do banqueiro central com relação a movimentos na taxa de juros. Utilizando este parâmetro de suavização na função de reação adotada, temos:
 	
-	\begin{equation}
+	\begin{equation} \label{linear}
 		i_t = \rho i_{t-1} + (1-\rho) \{ \bar{i} + \beta E_t(\pi_{t+k} - \pi^*) + \Phi x_{t-j} \}
 	\end{equation}
 	
 	A ser estimada por Mínimos Quadrados Ordinários.
 	
-	Por fim, para modelar a resposta não linear do banqueiro central, um modelo STR (\it{Smooth Transition Regression) é utilizado para a função de reação do banco central, incorporando funções de transição para o hiato do produto e desvios da inflação. Para tanto, estas funções são adicionadas à forma linear anteriormente exposta como variáveis de transição:
+	Por fim, para modelar a resposta não linear do banqueiro central, um modelo STR (\textit{Smooth Transition Regression}) é utilizado para a função de reação do banco central, incorporando funções de transição para o hiato do produto e desvios da inflação. Para tanto, estas funções são adicionadas à forma linear anteriormente exposta como variáveis de transição:
 	
 	\begin{equation}
-		i_t^* = X_t \Beta + X_t \alpha_\pi \theta(\Gamma,c,z_{t-d}^\pi) + X_t \alpha_x \theta (\Gamma,c,z_{t-j}^x+e_t)
+		i_t^* = X_t \Beta + X_t \alpha_\pi \theta(\Gamma,c,z_{t-d}^\pi) + X_t \alpha_x \theta (\Gamma,c,z_{t-j}^x) + e_t
 	\end{equation}
 	%
-	onde $X_t$ representa as variáveis do modelo linear, $z_{t-d}^\pi$ e $z_{t-j}^x$ são as variáveis de transição referentes ao hiato do produto e o desvio da inflação, $c$ é o limiar a partir do qual ocorre a mudança de regime, $\Gamma$ é o parâmetro de suavização da transição, $\theta(.)$ é uma função logística, escolhida segundo o trabalho de \citeonline{areosa_econometrics} e os resultados obtidos por \citeonline{pagano_rossi}. Com as devidas restrições aos vetores de parâmetros $\alpha_\pi$ e $\alpha_x$, a função de reação é dada por:
+	onde $X_t$ representa as variáveis do modelo linear, $z_{t-d}^\pi$ e $z_{t-j}^x$ são as variáveis de transição referentes ao hiato do produto e o desvio da inflação, $c$ é o limiar a partir do qual ocorre a mudança de regime, $\Gamma$ é o parâmetro de suavização da transição (velocidade no qual a transição se dá), $\theta(.)$ é uma função logística, escolhida segundo o trabalho de \citeonline{areosa_econometrics} e os resultados obtidos por \citeonline{pagano_rossi}, tal qual:
+	
+	\begin{eqnarray}  \label{func_log}
+		\theta (\Gamma,c,z_{t-k}) = \frac{1}{1+e^{\Gamma (z_{t-k} - c)}} 
+	\end{eqnarray}
+	
+	A função logística apresenta algumas características interessantes, como, dependendo valor assumido pelo parâmetro $\Gamma$, poder assumir diferentes graus de suavização da transição em torno do zero. Valores negativos ou positivos para este parâmetro também condicionam a transição de zero para um, no caso do parâmetro assumir valor negativo, ou de um para zero, no caso do parâmetro assumir valor positivo. Novamente com um exemplo gráfico, temos que a função logística pode assumir as seguintes formas, a depender do parâmetro $\Gamma$ utilizado:
+	
+	
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	
+	\begin{figure}[!h]
+	\includegraphics[scale=0.6]{D:/Documents/Dissertacao/imagens/logistica.png}
+	\caption{Em (a), função logistica com transição suave de um para zero, em (b) temos uma transição suave de zero para um. Em (c), temos uma transição quase instantânea ao redor de zero de um para zero, enquanto em (d) temos uma transição também quase instantânea de zero para um.}
+	\label{fig:logistica}
+	\end{figure}
+	
+	Assim, para o hiato do produto, $\theta(.)$ assume a seguinte forma:
+	
+	\begin{eqnarray}  \label{func_log_hiato}
+		\theta (\Gamma,c,z_{t-j}^x) = \theta (H_{t-j}^x) = \frac{1}{1+e^{\Gamma (z_{t-j}^x - c)}} 
+	\end{eqnarray}
+	%
+	enquanto, para o desvio da inflação, tem-se:
+	
+	\begin{eqnarray}  \label{func_log_inflacao}
+		\theta (\Gamma,c,z_{t-d}^\pi) = \theta (H_{t-d}^\pi) = \frac{1}{1+e^{\Gamma (z_{t-d}^\pi - c)}} 
+	\end{eqnarray}
+	
+	Desta forma, tem-se que a função de reação é dada por:
 	
 	\begin{equation}
 		i_t^* = \bar{i} + \beta E_t(\pi_{t+k} - \pi^*) + \Phi x_{t-f} + \alpha_\pi E(\pi_t - \pi^*)\theta(H_{t-d}^\pi) + \alpha_x x_{t-f} \theta (H_{t-j}^x) + u_t
@@ -369,41 +596,95 @@
 	
 	\begin{eqnarray}  \label{modelo_nao_linear}
 		i_t = \rho i_{t-1} + (1-\rho) \{ \bar{i} + \beta E_t(\pi_{t+k} - \pi^*) + \Phi x_{t-f} + \nonumber \\ 
-		 \alpha_\pi E(\pi_t - \pi^*)\theta(H_{t-d}^\pi) + \alpha_x x_{t-f} \theta (H_{t-j}^x) + u_t \}
+		 \alpha_\pi E(\pi_t - \pi^*)\theta(H_{t-d}^\pi) + \alpha_x x_{t-f} \theta (H_{t-j}^x) \} + u_t
 	\end{eqnarray}
 	
-	\section{Extensão dos trabalhos existentes}	
+
+
+	
+	\section{Metodologia empírica}	
+	
+	\subsection{Método de estimação}
 	
 	Modelos STR são largamente utilizados para capturar comportamentos assimétricos de séries de tempo. Sobre a hipótese de exogeneidade, o método de estimação usualmente utilizado é o de Mínimos Quadrados Não Lineares. \citeonline{cukierman_muscatelli} e, por conseguinte, \citeonline{pagano_rossi} assumiram a exogeneidade das variáveis utilizadas na função reação do banco central e utilizaram Mínimos Quadrados para estimar os parâmetros do modelo STR estudado, porém, na hipótese de que o hiato do produto e os desvios da inflação à meta são endógenos, tal estimação torna-se viesada.
 	
 	\citeonline{areosa_econometrics} relaxam a suposição de exogeneidade fraca ao propor um estimador GMM para recuperar os parâmetros dos modelos STR.	Utilizando este método de estimação para a equação \ref{modelo_nao_linear}, não mais será necessária a hipótese de exogeneidade das variáveis de hiato do produto e desvios da inflação, mantendo não viesados as estimações dos parâmetros mesmo na presença de endogeneidade destas variáveis.
 	
+	Assim, o método de estimação proposto por \citeonline{areosa_econometrics} será utilizado na estimação da equação \ref{modelo_nao_linear}. Como instrumentos, serão utilizados os próprios regressores originais defasados em até quatro períodos.
+	
 	Além do mais, \citeonline{pagano_rossi} utilizaram, como medida do hiato do produto, o componente cíclico da produção industrial brasileira, tal qual é divulgada pelo IBGE. Neste trabalho, propomos a utilização de uma medida de hiato de produto mais ampla, baseada no IBC-Br, \textsl{proxy} de PIB mensal computado pelo Banco Central do Brasil que leva em consideração a produção industrial, as vendas no varejo e a produção agropecuária. Como não necessariamente o banqueiro central tem disponível o último dado referente a esta série em tempo real para a tomada de decisão de política monetária, propomos uma estimação do hiato do IBC-Br a partir da utilização de análise de componentes principais.
 	
 	
-	\section{Dados Utilizados}
-	Os dados utilizados têm início em janeiro de 2003 (início da série do IBC-Br) e fim em dezembro de 2014, com periodicidade mensal. Durante todo este período, o Brasil esteve sob regime de câmbio flutuante e de metas de inflação. Como medida de inflação, será utilizada a expectativa 12 meses à frente suavizada das projeções FOCUS, pesquisa realizada pelo Banco Central do Brasil com participantes do mercado, do primeiro dia útil de cada mês. O instrumento de política monetária a ser utilizado é a meta para a taxa Selic, definida pelo Banco Central.
+	
+	\subsection{Dados Utilizados}
+	Os dados utilizados têm início em janeiro de 2003 (início da série do IBC-Br) e fim em dezembro de 2014, com periodicidade mensal. Durante todo este período, o Brasil esteve sob regime de câmbio flutuante e de metas de inflação. Como medida de inflação, será utilizada a expectativa 12 meses à frente suavizada das projeções Focus, pesquisa realizada pelo Banco Central do Brasil com participantes do mercado, do último dia útil de cada mês. O instrumento de política monetária a ser utilizado é a meta para a taxa Selic, definida pelo Banco Central, enquanto a meta de inflação utilizada é aquela definida pelo CMN em cada período.
 	
 	Como medida de hiato do produto, é proposta neste trabalho a utilização de uma medida alternativa através de um indicador através da utilização de análise de componentes principais a uma gama de variáveis coincidentes de atividade. Isto é feito por dois motivos: extrair a tendência comum desta série de indicadores e conseguir uma medida quase em tempo real do nível de atividade.
+	
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	
+	\begin{figure}[!h]
+	\includegraphics[scale=0.6]{D:/Documents/Dissertacao/imagens/variaveis.png}
+	\caption{Variáveis utilizadas.}
+	\label{fig:variaveis}
+	\end{figure}
 	
 	A utilização desta medida alternativa se dá como maneira de projetar em um determinado instante do tempo as condições atuais da economia, resumidas pelo indicador mensal do Banco Central do Brasil chamado de IBC-Br. Como no momento da decisão de política monetária as últimas informações referentes a este indicador não necessariamente são conhecidas, aplicaremos a metodologia aqui descrita para projetá-lo em cada instante de tempo.
 	
 	A OCDE (2012) propõe retirar a tendência e suavizar os indicadores utilizados para compor seus indicadores de nível de atividade através do uso do filtro Hodrick-Prescott, dada a sua maior estabilidade e transparência quando comparado com outros filtros estatísticos\footnote{A OCDE (2012) testa a utilização, além do filtro HP, do Phase Average Trend Method (PAT), do Month for Cyclical Dominance method (MCD) e do Christiano-Fitzgerald Filter (CF), acabando por concluir pela utilização do filtro HP.}.
 	
-	Após a extração dos componentes cíclicos das variáveis candidatas, a análise de componente principal é utilizada e os componentes resultantes que explicam a maior parte da variabilidade dos dados originais são regredidos contra o ciclo do IBC-Br até $t_-1$, para termos então a projeção deste indicador em $t_0$.
+	Após a extração dos componentes cíclicos das variáveis candidatas, a análise de componente principal é utilizada e os componentes resultantes que explicam a maior parte da variabilidade dos dados originais são regredidos contra o ciclo do IBC-Br até $t_{-1}$, para termos então a projeção deste indicador em $t_0$.
 	
 	Para isto, e de acordo com os trabalhos de \citeonline{drago_ribeiro} e da OCDE (1997 e 2012), a modelagem aqui proposta se dá pelos seguintes passos:
 	
 	\begin{enumerate}
 		\item Dessazonalização das séries dos indicadores escolhidos;
 		\item extração de uma tendência de longo prazo com a utilização de um filtro HP com parâmetro de 14.400;
-		\item aplicação de um filtro HP com parâmetro 10 ao componente cíclico;
+		\item aplicação de um filtro HP com parâmetro 10 ao componente cíclico (suavização do ciclo);
 		\item extração do componente cíclico do IBC-Br através da mesma metodologia explicitada acima;
 		\item construção da medida de hiato pela regressão dos componentes principais que explicam pelo menos 85\% da variabilidade total dos dados com o componente cíclico do IBC-Br.
 	\end{enumerate}
 	
 	Como variáveis candidatas, foram escolhidas séries de tempo com divulgação rápida, geralmente conhecidas antes da divulgação da produção industrial de determinado mês. A relação completa das séries utilizadas se encontra no Apêndice A.
 	
+	Testes ADF (\textit{Augmented Dickey-Fuller}) de raíz unitária foram realizados sobre as variáveis utilizadas. A defasagem ótima foi escolhida de acordo com o critério de informação de Schwarz. Para a Selic, foram incluídas uma constante e uma tendência linear. Todas as variáveis se mostraram estacionárias a um nível de significância de 10\%.
+	
+
+	
+	\begin{table}[H]
+		\centering
+			\begin{tabular}{ccc}
+			\toprule
+			& \textbf{Defasagem} & \textbf{Estatística t} & 
+			\midrule
+			Selic & 1 & -3.4434 \\
+			Desvio da inflação & 1 & -2.4411 \\
+			Hiato do produto & 1 & -8.7925 \\ \bottomrule
+			\end{tabular}
+		\caption{Testes ADF}
+		\label{tab:testeADF}
+	\end{table}	
+
 	%Abaixo, o resultado da metodologia descrita acima, resultando na medida de hiato do produto a ser utilizada neste trabalho:
 		
 		
@@ -414,6 +695,42 @@
 	%	\end{center}
 	%\end{figure}
 		
+		
+\subsection{Teste de não-linearidade}
+	
+	Considerando a equação \ref{modelo_nao_linear}, testar a existência de não linearidade é equivalente a realizar um teste de hipótese onde $H_0: \Gamma = 0$ (que resulta na equação linear \ref{linear})  contra a hipótese alternativa $H_0: \Gamma > 0$. Como a equação \ref{modelo_nao_linear} é não identificável sobre a hipótese nula, utiliza-se uma expansão de Taylor de terceira ordem sobre a função $\theta(.)$ em torno do ponto $\Gamma = 0$, conforme \citeonline{terasvirta}:
+	
+	\begin{eqnarray} \label{teste_linearidade}
+		x_t =  R_t \lambda_0 + (R_t z_{t-k})' \lambda_1 + (R_t z_{t-k}^2)' \lambda_2 + (R_t z_{t-k}^3)' \lambda_3 + \nu_t
+	\end{eqnarray}
+	%
+	onde $R_t = (1, r_1, r_2, ...)$, ou seja, uma matriz com todos os regressores.
+	
+	A partir de \ref{teste_linearidade}, testar a não-linearidade da função \ref{modelo_nao_linear} equivale a testar se $\lambda_1 = \lambda_2 = \lambda_3 = 0$. Ainda de acordo com \citeonline{terasvirta}, este procedimento é realizado através de um teste LM, utilizando-se a estatística F:
+	
+	\begin{equation} \label{estatistica_f}
+		F = \frac{(SSE_n - SSE_a) / k}{SSR_a / (T - k)}
+	\end{equation}
+	%
+	onde $SSE_n$ é a soma dos quadrados dos resíduos sobre a hipótese nula, $SSE_a$ é a soma dos quadrados dos resíduos da equação sobre a hipótese alternativa, $T$ é a quantidade de observações e $k$ a quantidade de restrições impostas.
+	
+	Como variáveis de transição, utilizamos o hiato do produto e os desvios da inflação à meta, pois buscamos caracterizar as preferências do Banco Central do Brasil acerca destas variáveis. O limiar de transição (parâmetro $c$) é igual a zero, pois se quer testar se existe não linearidade ao redor de desvios positivos ou negativos da inflação à meta e do hiato do produto ao redor do seu nível neutro.
+	
+	Abaixo, o resultado dos testes preliminares de não linearidade realizados.
+	
+	\begin{table}[H]
+		\centering
+			\begin{tabular}{ccc}
+			\toprule
+			& \textbf{Estatística F} & \textbf{P-Valor} &
+			\midrule
+			Hiato do Produto & 2.5744 & 0.0216 \\
+			Desvios da Inflação & 9.9667 & 0.0000 \\ \bottomrule
+			\end{tabular}
+		\caption{Teste LM de não-linearidade}
+		\label{tab:testeLM}
+	\end{table}	
+	
 	
 	\section{Resultados Esperados}
 	
@@ -470,8 +787,27 @@
 \pagebreak
 
 \begin{appendices}
-\chapter{Variáveis candidatas}
+\chapter{Medida de Hiato Alternativa}
 
+	Conforme explicado, no momento da decisão de política monetária, os formuladores de política não necessariamente têm à sua disposição os últimos dados referentes ao nível de atividade e ao ciclo econômico. Por conseguinte, adotamos neste trabalho uma medida alternativa de hiato de produto, utilizando como base o IBC-Br, indicador em base mensal de atividade do Banco Central do Brasil.
+	
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	
+	\begin{figure}[!h]
+	\includegraphics[scale=0.65]{D:/Documents/Dissertacao/matlab/MedidaHiato/imagens/medida_hiato.png}
+	\caption{Componente Cíclico do IBC-Br}
+	\label{fig:ibc_br}
+	\end{figure}
+		
+		
+	Como forma de obter uma aproximação do ciclo da economia em determinado momento de tempo, são utilizadas uma gama de variáveis de preço, produção e confiança de diferentes setores da economia a serem utilizadas na construção da medida de hiato alternativa.
 	
 \begin{table}[H]
 		\centering
@@ -479,8 +815,9 @@
 			\hline
 			Variável & Fonte \\ \hline
 			NUCI & FGV \\
-			Confiança da Indústria & FGV \\
-			Confiança do Comércio & FECOMERCIO \\
+			Confiança da Indústria - Índice & FGV \\
+			Confiança da Indústria - Cond. Atual & FGV \\
+			Confiança da Indústria - Expectativas & FGV \\
 			Confiança do Comércio & FECOMERCIO \\
 			Índice de Atividade no Comércio & Serasa Experian \\
 			Subíndice de Venda de Veículos & Serasa Experian \\
@@ -490,7 +827,7 @@
 			Subíndice de Venda de Itens de Vestuário & Serasa Experian \\
 			Subíndice de Venda de Materiais de Construção & Serasa Experian \\
 			Produção Total de Veículos & ANFAVEA \\
-			Demanda de Energia Elétrica & ONS \\
+			Geração de Energia Elétrica & ONS \\
 			Fluxo de Veículos Pesados em Estradas Pedagiadas & ABCR \\
 			Emplacamento Total de Veículos & FENABRAVE \\
 			Emplacamento de Veículos Comerciais Leves & FENABRAVE \\
@@ -503,12 +840,16 @@
 			Índice de Commodities - Live Stock & CRB - \textsl{Commodity Research Bureau} \\
 			Índice de Commodities - Metals & CRB - \textsl{Commodity Research Bureau} \\
 			Índice de Commodities - Raw Industrials & CRB - \textsl{Commodity Research Bureau} \\
-			Índice de Commodities - ISM Manufacturing & \textsl{Institute for Supply Management} \\
+			ISM Manufacturing & \textsl{Institute for Supply Management} \\
 			Taxa de Câmbio Reais por Dólar & Banco Central do Brasil \\ \hline
 			\end{tabular}
-		\caption{Variáveis Candidatas}
+		\caption{Variáveis Utilizadas}
 		\label{tab:VariáveisCandidatas}
 	\end{table}	
+	
+	Abaixo, a extração do componente cíclico de cada uma das variáveis utilizadas e a comparação deste com o ciclo do IBC-Br.
+	
+\textit{Problemas ao adicionar as figuras no latex, figuras estão em arquivo Word anexo}
 	
 \end{appendices}
 

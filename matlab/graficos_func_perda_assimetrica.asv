@@ -102,19 +102,41 @@ h.PaperPositionMode = 'manual';
 %print('D:\Documents\Dissertacao\imagens\func_exponencial_gamma_pos_neg.png','-dpng','-r0')
 
 %% GRÁFICOS DAS VARIAVEIS UTILIZADAS NO MODELO
+
 data = x2mdate(x(:,1));
 
 h = figure(3);
 
 subplot(2,2,1);
-plot(data,x(:,4),'color','black');
-plot(data,x(:,6),'color','black');
-grid
-xlabel('Inflação esperada 12 meses à frente vs a meta'); % x-axis label
+plot(data,x(:,4),'-k');
+xlabel('Inflação esperada'); % x-axis label
 ylabel('%'); % y-axis label
+grid
 xlim([731582 736024]);
 dateaxis('x',12)
 
+subplot(2,2,2);
+plot(data,x(:,7),'-k');
+xlabel('Diferencial de inflação à meta'); % x-axis label
+ylabel('%'); % y-axis label
+grid
+xlim([731582 736024]);
+dateaxis('x',12)
+
+subplot(2,2,3);
+plot(data,x(:,3),'-k');
+xlabel('Taxa Selic Efetiva'); % x-axis label
+ylabel('%'); % y-axis label
+grid
+xlim([731582 736024]);
+dateaxis('x',12)
+
+subplot(2,2,4);
+plot(data,x(:,2),'-k');
+xlabel('Hiato do Produto'); % x-axis label
+grid
+xlim([731582 736024]);
+dateaxis('x',12)
 
 set(h, 'Position', [0 0 900 700])
 h.PaperPosition = [0 0 900 700];

@@ -102,6 +102,7 @@ h.PaperPositionMode = 'manual';
 %print('D:\Documents\Dissertacao\imagens\func_exponencial_gamma_pos_neg.png','-dpng','-r0')
 
 %% GRÁFICOS DAS VARIAVEIS UTILIZADAS NO MODELO
+
 data = x2mdate(x(:,1));
 
 h = figure(3);
@@ -124,7 +125,7 @@ dateaxis('x',12)
 
 subplot(2,2,3);
 plot(data,x(:,3),'-k');
-xlabel('Taxa Selic'); % x-axis label
+xlabel('Taxa Selic Efetiva'); % x-axis label
 ylabel('%'); % y-axis label
 grid
 xlim([731582 736024]);

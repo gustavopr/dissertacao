@@ -29,47 +29,58 @@
 \emph{Revista Economia e Sociedade}, Bank for International Settlements, n.~35,
   Maio 2008.}
 
-\bibitem[Clarida, Gali e Gertler 1998]{clarida_mon_policy}
-\abntrefinfo{Clarida, Gali e Gertler}{CLARIDA; GALI; GERTLER}{1998}
-{CLARIDA, R.; GALI, J.; GERTLER, M. Monetary policy rules in practice some
+\bibitem[Clarida, Gal\'{i} e Gertler 1998]{clarida_mon_policy}
+\abntrefinfo{Clarida, Gal\'{i} e Gertler}{CLARIDA; GAL\'{i}; GERTLER}{1998}
+{CLARIDA, R.; GAL\'{i}, J.; GERTLER, M. Monetary policy rules in practice some
   international evidence.
 \emph{European Economic Review}, v.~42, n.~6, p. 1033--1067, Junho 1998.}
 
 \bibitem[Cukierman 1989]{cukierman_smooth}
 \abntrefinfo{Cukierman}{CUKIERMAN}{1989}
-{CUKIERMAN, A. Why does the fed smooth interest rates?
-\emph{Proceedings}, p. 111--157, 1989.}
+{CUKIERMAN, A. Why does the {Fed} smooth interest rates?
+\emph{Federal Reserve Bank of St. Louis, Proceedings}, p. 111--157, 1989.}
 
 \bibitem[Cukierman e Muscatelli 2008]{cukierman_muscatelli}
 \abntrefinfo{Cukierman e Muscatelli}{CUKIERMAN; MUSCATELLI}{2008}
-{CUKIERMAN, A.; MUSCATELLI, A. Nonlinear taylor rules and asymmetric
-  preferences in central banking: Evidence from the united kingdom and the
-  united states.
+{CUKIERMAN, A.; MUSCATELLI, A. Nonlinear {Taylor} rules and asymmetric
+  preferences in central banking: Evidence from the {United} {Kingdom} and the
+  {United States}.
 \emph{The B.E. Journal of Macroeconomics}, v.~8, n.~1, p. 1--31, Fevereiro
   2008.}
 
 \bibitem[Drago e Ribeiro 2013]{drago_ribeiro}
 \abntrefinfo{Drago e Ribeiro}{DRAGO; RIBEIRO}{2013}
-{DRAGO, A.~D.; RIBEIRO, G. de P. Indicadores para projeção do nível de
-  atividade econômica no brasil.
-\emph{Seminário sobre Crescimento Econômico: Ministério da Fazenda e Banco
-  Interamericano de Desenvolvimento}, 2013.}
+{DRAGO, A.~D.; RIBEIRO, G. de P. Indicadores para proje\c{c}\~{a}o do n\'{i}vel
+  de atividade econ \^{o}mica no brasil.
+\emph{Seminário sobre Crescimento Econ\^{o}mico: Minist\'{e}rio da Fazenda e
+  Banco Interamericano de Desenvolvimento}, 2013.}
+
+\bibitem[Fischer 1995]{fischer_modern}
+\abntrefinfo{Fischer}{FISCHER}{1995}
+{FISCHER, S. \emph{Modern Approaches to Central Banking}.
+[S.l.], 1995.}
+
+\bibitem[Fischer 1996]{fischer_why}
+\abntrefinfo{Fischer}{FISCHER}{1996}
+{FISCHER, S. Why are central banks pursuing long-run price stability?
+\emph{Proceedings - Economic Policy Symposium - Jackson Hole}, p. 7--34, 1996.}
 
 \bibitem[Gerlach e Schnabel 1999]{gerlach}
 \abntrefinfo{Gerlach e Schnabel}{GERLACH; SCHNABEL}{1999}
-{GERLACH, S.; SCHNABEL, G. The taylor rule and interest rates in the emu area:
-  a note.
+{GERLACH, S.; SCHNABEL, G. The {Taylor} rule and interest rates in the {EMU}
+  area: a note.
 \emph{BIS Working Paper}, n. No. 73, 1999.}
 
 \bibitem[Judd e Rudebusch 1998]{judd_rudebusch}
 \abntrefinfo{Judd e Rudebusch}{JUDD; RUDEBUSCH}{1998}
-{JUDD, J.~P.; RUDEBUSCH, G.~D. Taylor's rule and the fed, 1970-1997.
+{JUDD, J.~P.; RUDEBUSCH, G.~D. Taylor's rule and the {Fed}, 1970-1997.
 \emph{Economic Review}, p. 3--16, 1998.}
 
 \bibitem[Mendon{\c c}a 2001]{mendonca}
 \abntrefinfo{Mendon{\c c}a}{MENDON{\c C}A}{2001}
-{MENDON{\c C}A, H. F.~d. Mecanismos de transmissão monetária e a determinação
-  da taxa de juros: uma aplicação da regra de taylor ao caso brasileiro.
+{MENDON{\c C}A, H. F.~d. Mecanismos de transmiss\~{a}o monet\'{a}ria e a
+  determina\c{c}\~{a}o da taxa de juros: uma aplica\c{c}\~{a}o da regra de
+  taylor ao caso brasileiro.
 \emph{Revista Economia e Sociedade}, v.~16, p.~17, Janeiro 2001.}
 
 \bibitem[Mishkin 2000]{mishkin_inflation_targeting}
@@ -77,22 +88,32 @@
 {MISHKIN, F.~S. \emph{Inflation Targeting in Emerging Market Countries}.
 [S.l.], 2000.}
 
+\bibitem[OECD 1997]{oecd_1997}
+\abntrefinfo{OECD}{OECD}{1997}
+{OECD. \emph{Business Tendency Surveys: A Handbook}.
+[S.l.], 1997.}
+
+\bibitem[OECD 2012]{oecd_2012}
+\abntrefinfo{OECD}{OECD}{2012}
+{OECD. \emph{OECD System of Composite Leading Indicators}.
+[S.l.], 2012.}
+
 \bibitem[Pagano e Rossi 2009]{pagano_rossi}
 \abntrefinfo{Pagano e Rossi}{PAGANO; ROSSI}{2009}
-{PAGANO, T. d.~A.; ROSSI, J. L.~J. \emph{Uma análise da não-linearidade da
-  função de reação do Banco Central do Brasil: Avesso a Inflação ou a
-  Recessão?}
+{PAGANO, T. d.~A.; ROSSI, J. L.~J. \emph{Uma an\'{a}lise da n\~{a}o-linearidade
+  da fun\c{c}\~{a}o de rea\c{c}\~{a}o do Banco Central do Brasil: Avesso a
+  Infla\c{c}\~{a}o ou a Recess\~{a}o?}
 [S.l.], 2009.}
 
 \bibitem[Rigolon e Giambiagi 1999]{rigolon_giambiagi}
 \abntrefinfo{Rigolon e Giambiagi}{RIGOLON; GIAMBIAGI}{1999}
-{RIGOLON, F.; GIAMBIAGI, F. A atuação do banco central em uma economia
-  estabilizada: é desejável adotar metas inflacionárias no brasil?
+{RIGOLON, F.; GIAMBIAGI, F. A atua\c{c}\~{a}o do banco central em uma economia
+  estabilizada: \'{e} desej\'{a}vel adotar metas inflacion\'{a}rias no brasil?
 \emph{Revista de Economia Política}, n. 19(3), p. 3--22, 1999.}
 
 \bibitem[Surico 2006]{surico}
 \abntrefinfo{Surico}{SURICO}{2006}
-{SURICO, P. The fed’s monetary policy rule and u.s. inflation: The case of
+{SURICO, P. The {Fed’s} monetary policy rule and {U.S.} inflation: The case of
   asymmetric preferences.
 \emph{Journal of Economic Dynamics \& Control}, 2006.}
 
@@ -116,7 +137,7 @@
 
 \bibitem[Ullrich 2003]{ullrich}
 \abntrefinfo{Ullrich}{ULLRICH}{2003}
-{ULLRICH, K. A comparison between the fed and the ecb: Taylor rules.
+{ULLRICH, K. A comparison between the {Fed} and the {ECB}: Taylor rules.
 \emph{ZEW Discussion Paper}, n. 03-19, 2003.}
 
 \end{thebibliography}

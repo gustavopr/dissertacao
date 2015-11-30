@@ -1,4 +1,4 @@
-function [PSI, sd_hat, VM, ehat, aic, fX1, fX2] = Estimate(y,xex,xen,z,W,PV,ord,model,par0)
+function [PSI, sd_hat, VM] = Estimate(y,xex,xen,z,W,PV,ord,model,par0)
 % *************************************************************************
 % FUNCTION Estimate
 % *************************************************************************
@@ -61,10 +61,10 @@ z2 = z(:,2); % desvios da inflacao
 %c0      = median(z);  
 %fX      = (1./(1+exp(-gamma0.*(z - c0)))) ;
 fX1      = (1./(1+exp(-gamma10.*(z1 - 0))));
-fX2     = (1./(1+exp(gamma20.*(z2 - 0))));
+fX2     = (1./(1+exp(-gamma20.*(z2 - 0))));
 %fW      = (1./(1+exp(-gamma0.*(W(:,end) - c0))));
 fW1      = (1./(1+exp(-gamma10.*(W(:,end) - 0))));
-fW2     = (1./(1+exp(gamma20.*(W(:,end) - 0))));
+fW2     = (1./(1+exp(-gamma20.*(W(:,end) - 0))));
 fX      = fX1 + fX2;
 fW      = fW1 + fW2;
 X2      = [X repmat(fX,1,nX).*X]; 
@@ -91,9 +91,9 @@ options = optimset('Display','off','Jacobian','on','MaxFunEvals',1e10,'LargeScal
 LB0     = -inf*ones(2*nX,1);
 UB0     = inf*ones(2*nX,1);
 %LB2     = [LB0;1;prctile(z2,15)];
-LB2     = [LB0;1;-30];
+LB2     = [LB0;1;-10];
 %UB2     = [UB0;60;prctile(z2,85)];
-UB2     = [UB0;60;+30];
+UB2     = [UB0;60;+10];
 
 for i = 1:length(ord)
     LB(i) = LB2(ord(i));
@@ -118,10 +118,12 @@ gammaf2  = par_hat(2*nX+2);
 % 3. CALCULATE STANDART DEVIATIONS (NLIV OR MNLIV)
 %**************************************************************************
 %fX      = (1./(1+exp(-gammaf.*(z - cf))));
-fX      = (1./(1+exp(-gammaf1.*(z1 - 0)))) + (1./(1+exp(gammaf2.*(z2 - 0))));
+fX      = (1./(1+exp(-gammaf1.*(z1 - 0)))) + (1./(1+exp(-gammaf2.*(z2 - 0))));
 Yhat    = X*alphaf + (X*lambdaf).*fX;
 ehat    = y - Yhat;
-Ghat    = [X X.*repmat(fX,1,nX) (X*lambdaf).*fX.*(1-fX).*(z1 - 0) (X*lambdaf).*fX.*(1-fX).*(z2 - 0) - gammaf1*(X*lambdaf).*fX.*(1-fX) + gammaf2*(X*lambdaf).*fX.*(1-fX)];
+smsqr   = sumsqr(ehat);
+aic     = (T.*log(smsqr)+2*size(par1(nX+1:2*nX,1)));
+Ghat    = [X X.*repmat(fX,1,nX) (X*lambdaf).*fX.*(1-fX).*(z1 - 0) (X*lambdaf).*fX.*(1-fX).*(z2 - 0) - gammaf1*(X*lambdaf).*fX.*(1-fX)- gammaf2*(X*lambdaf).*fX.*(1-fX)];
 Ghat    = Ghat*model';
 V       = [xen z]  - PW*[xen z];
 XZ      = [ehat V];
@@ -136,4 +138,3 @@ G       = Ghat'*(eye(size(PV))-PV)*Ghat;
 H       = Ghat'*PW*Ghat;
 VM      = pinv(G)*(S11_star*G+(S11-S11_star)*H)*pinv(G);
 sd_hat  = sqrt(diag(VM)); 
-aic     = 2*(size(par_hat(1:nX,1),1)+2)+T*log(sumsqr(ehat)/T);

@@ -324,13 +324,20 @@ selic = [
 [T,s]  = size(base);
 %li    = log(1+(selic(:,3)/100)); % log-anualizado
 
-% Phillips Curve
+% dados
+% y      : regressando
+% xex    : regressores exogenos
+% xen    : regressores endogenos
+% z      : variavel de transicao (funcao logistica)
+% wx     : instrumentos para x
+% wz     : instrumentos para z
+% ym     : periodos
 % --------------
 y   = selic(5:T,3);
 xex = [];
 xen = [base(5:T,5) base(5:T,7)]; % hiato do produto e diferencial de inflacao
 x   = [xex xen];
-z   = [base(5:T,5) base(5:T,7)];
+z   = [base(5:T,5) base(5:T,7)]; % hiato do produto e diferencial de inflacao
 wx  = [base(4:T-1,5) base(3:T-2,5) base(2:T-3,5) base(1:T-4,5) base(4:T-1,7) base(3:T-2,7) base(2:T-3,7) base(1:T-4,7) selic(4:T-1,3) selic(3:T-2,3) selic(2:T-3,3) selic(1:T-4,3)]; % uso como instrumento proprias variaveis defasadas
 wz  = [base(4:T-1,5) base(3:T-2,5) base(2:T-3,5) base(1:T-4,5) base(4:T-1,7) base(3:T-2,7) base(2:T-3,7) base(1:T-4,7)]; % uso como instrumento proprias variaveis defasadas
 ym  = base(5:T,1)+(base(5:T,2)/12);

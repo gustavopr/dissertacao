@@ -1,4 +1,4 @@
-function [f] = IVCost(PSI,X,y,z,PW,PV,ord,model)
+function [f] = IVCost(PSI,X,y,z1,z2,PW,PV,ord,model)
 %function [f,g] = IVCost(PSI,X,y,z,PW,PV,ord,model)
 % *************************************************************************
 % FUNCTION IVCost
@@ -47,14 +47,15 @@ end
 
 alpha  = param(1:nX);
 lambda = param(nX+1:2*nX);
-gamma  = param(2*nX+1);
-c      = param(2*nX+2);
+gamma1  = param(2*nX+1);
+gamma2  = param(2*nX+2);
+%c      = param(2*nX+2);
 
 
 %**************************************************************************
 % 2. CALCULATE f (NLIV or MNLIV)
 %**************************************************************************
-fX   = (1./(1+exp(-gamma.*(z - c))));
+fX   = (1./(1+exp(-gamma1.*(z1 - 0)))) + (1./(1+exp(+gamma2.*(z2 - 0))));
 Yhat = X*alpha +(X*lambda).*fX;
 e = y - Yhat;
 

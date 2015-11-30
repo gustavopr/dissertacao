@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2015.4.12)  19 SEP 2015 19:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2015.4.12)  29 NOV 2015 22:11
 entering extended mode
 **Dissertação.tex
 (D:\Documents\Dissertacao\latex\Dissertação.tex
@@ -1641,8 +1641,8 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.738 ...xtbf{Estatística F} & \textbf{P-Valor} &
-                                                  
+l.738 			& \textbf{Estimação}  &
+                                  
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
@@ -1707,7 +1707,7 @@ You need to provide a definition with \DeclareInputText
 or \DeclareInputMath before using this key.
 
 ) [28]
-Overfull \hbox (76.61224pt too wide) in paragraph at lines 811--845
+Overfull \hbox (76.61224pt too wide) in paragraph at lines 814--848
  [][] 
  []
 
@@ -1715,12 +1715,12 @@ Overfull \hbox (76.61224pt too wide) in paragraph at lines 811--845
 \tf@toc=\write5
 \tf@lot=\write6
 \tf@lof=\write7
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 853.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 853.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 856.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 856.
 \BKM@file=\write8
  (D:\Documents\Dissertacao\latex\Dissertação.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 853.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 853.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 856.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 856.
 
 
 LaTeX Warning: There were undefined references.
@@ -1728,7 +1728,7 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 853.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 856.
  ) 
 Here is how much of TeX's memory you used:
  17397 strings out of 493922
@@ -1739,4 +1739,4 @@ Here is how much of TeX's memory you used:
  841 hyphenation exceptions out of 8191
  41i,12n,37p,10384b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Dissertação.dvi (31 pages, 138092 bytes).
+Output written on Dissertação.dvi (31 pages, 138036 bytes).

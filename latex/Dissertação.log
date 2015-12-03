@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2015.4.12)  29 NOV 2015 22:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2015.4.12)  3 DEC 2015 01:13
 entering extended mode
 **Dissertação.tex
 (D:\Documents\Dissertacao\latex\Dissertação.tex
@@ -1259,91 +1259,53 @@ LaTeX Info: Redefining \pageref on input line 135.
 LaTeX Info: Redefining \nameref on input line 135.
 \myptabbox=\box55
 \myptabboxwidth=\skip273
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 148.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 289.
 ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-] [1
+] [2] (D:\Documents\Dissertacao\latex\Dissertação.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 6.
 
-
-
-]
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 202.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-
- []
-
-
-Overfull \hbox (16.44858pt too wide) in paragraph at lines 202--202
-[]  [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-
- []
-
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 202.
 ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 202.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 6.
  ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 202.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 6.
  ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 202.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 6.
 
 ("d:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 202.
+(Font)              <10.95> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 202.
+(Font)              <8> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 202.
-
-Overfull \hbox (21.91219pt too wide) in paragraph at lines 202--203
- [] 
- []
-
-[2]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 232.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 232.
- [3
-
-] [4] [5] [6] [7] (D:\Documents\Dissertacao\latex\Dissertação.toc) [8]
-(D:\Documents\Dissertacao\latex\Dissertação.lot) [9] (D:\Documents\Dissertacao\latex\Dissertação.lof
+(Font)              <6> on input line 6.
+) [3] (D:\Documents\Dissertacao\latex\Dissertação.lot)
+[4] (D:\Documents\Dissertacao\latex\Dissertação.lof
 Overfull \hbox (265.333pt too wide) in paragraph at lines 2--2
  [][] [] []  
  []
 
 
-Overfull \hbox (160.34058pt too wide) in paragraph at lines 3--3
+Overfull \hbox (247.94049pt too wide) in paragraph at lines 3--3
  [][] [] []  
  []
 
-) [10] [11] [12] [13]
+) [5] [6] [7] [8]
 Overfull \hbox (1.38753pt too wide) in paragraph at lines 392--393
 [][][][][][][] \T1/lmr/m/n/10.95 ([][][][][][]) co-le-tam evi-d�n-cias de que a exis-
  []
 
-[14] [15] [16]
+[9] [10] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 475--480
 
  []
@@ -1387,37 +1349,7 @@ Overfull \hbox (38.91745pt too wide) in paragraph at lines 487--488
 \T1/lmr/m/n/10.95 Novo Key-ne-si-ano li-near de pre-�os r�-gi-dos, con-forme ex-posto por [][][][][][]
  []
 
-[17] [18]
-! Undefined control sequence.
-<argument> dE_0\x 
-                  _1
-l.527 		\frac{di_0}{dE_0\x_1}
-                              = \frac{1}{\varphi} \frac{A(1+\varphi\lambdaE_...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Double subscript.
-<recently read> \mathsub 
-                         
-l.527 		\frac{di_0}{dE_0\x_1}
-                              = \frac{1}{\varphi} \frac{A(1+\varphi\lambdaE_...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Undefined control sequence.
-<argument> A(1+\varphi \lambdaE 
-                                _0f_0^{''}[.] + \lambda ^2(1 + \varphi \lamb...
-l.527 ...1 + \varphi\lambda + b)E_0h_0^{''}[.]}{D}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[19]
+[12] [13] [14]
 ! Undefined control sequence.
 l.555 		i_t^* = X_t \Beta
                           + X_t \alpha_\pi \theta(\Gamma,c,z_{t-d}^\pi) + X_...
@@ -1428,40 +1360,71 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--574
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--574
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--574
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--574
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--574
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--574
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--574
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--582
+
+ []
+
+[15]
 
 ! LaTeX Error: Cannot determine size of graphic in D:/Documents/Dissertacao/imagens/logistica.png (no BoundingBox).
 
@@ -1469,18 +1432,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.576 ...uments/Dissertacao/imagens/logistica.png}
+l.585 ...uments/Dissertacao/imagens/logistica.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: D:/Documents/Dissertacao/imagens/logistica.png Graphic file (type eps)
 <D:/Documents/Dissertacao/imagens/logistica.png>
+Underfull \hbox (badness 3471) in paragraph at lines 586--586
+[][][][][][]\T1/lmr/m/n/10.95 Em (a) e em (b), fun-��o lo-gis-tica com tran-si-��o su-ave,
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20]
-Overfull \hbox (10.34998pt too wide) detected at line 597
+Overfull \hbox (10.34998pt too wide) detected at line 608
 []\OML/lmm/m/it/10.95 i[] \OT1/lmr/m/n/10.95 = [] + \OML/lmm/m/it/10.95 E[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 [] 
 \OMS/lmsy/m/n/10.95   \OML/lmm/m/it/10.95 []\OT1/lmr/m/n/10.95 ) + \OML/lmm/m/it/10.95 E\OT1/lmr/m/n/10.95 (\OML/lmm/m
 /it/10.95 x[]\OT1/lmr/m/n/10.95 ) + \OML/lmm/m/it/10.95 []E\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 [] \OMS/lmsy/m/n/10
@@ -1489,76 +1453,92 @@ r/m/n/10.95 ) + \OML/lmm/m/it/10.95 []E\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 
 95 \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 H[]\OT1/lmr/m/n/10.95 ) + \OML/lmm/m/it/10.95 u[][][]
  []
 
-[21]
-Overfull \hbox (8.56416pt too wide) in paragraph at lines 617--618
+[16]
+Overfull \hbox (8.56416pt too wide) in paragraph at lines 628--629
 []\T1/lmr/m/n/10.95 Assim, o m�-todo de es-ti-ma-��o pro-posto por [][][][][][]
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--643
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--659
+
+ []
+
+[18]
 
 ! LaTeX Error: Cannot determine size of graphic in D:/Documents/Dissertacao/imagens/variaveis.png (no BoundingBox).
 
@@ -1566,53 +1546,57 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.645 ...uments/Dissertacao/imagens/variaveis.png}
+l.661 ...uments/Dissertacao/imagens/variaveis.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: D:/Documents/Dissertacao/imagens/variaveis.png Graphic file (type eps)
-<D:/Documents/Dissertacao/imagens/variaveis.png> [23]
-Underfull \hbox (badness 10000) in paragraph at lines 668--676
+<D:/Documents/Dissertacao/imagens/variaveis.png>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 668.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 668.
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 684--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--676
+Underfull \hbox (badness 10000) in paragraph at lines 684--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--676
+Underfull \hbox (badness 10000) in paragraph at lines 684--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--676
+Underfull \hbox (badness 10000) in paragraph at lines 684--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--676
+Underfull \hbox (badness 10000) in paragraph at lines 684--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--676
+Underfull \hbox (badness 10000) in paragraph at lines 684--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--676
+Underfull \hbox (badness 10000) in paragraph at lines 684--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--676
+Underfull \hbox (badness 10000) in paragraph at lines 684--692
 
  []
 
-[24]
 
 ! LaTeX Error: Cannot determine size of graphic in D:/Documents/Dissertacao/matlab/MedidaHiato/imagens/medida_hiato.png 
 (no BoundingBox).
@@ -1621,33 +1605,47 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.678 ...lab/MedidaHiato/imagens/medida_hiato.png}
+l.694 ...lab/MedidaHiato/imagens/medida_hiato.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: D:/Documents/Dissertacao/matlab/MedidaHiato/imagens/medida_hiato.png Graphic file (type eps)
-<D:/Documents/Dissertacao/matlab/MedidaHiato/imagens/medida_hiato.png>
+<D:/Documents/Dissertacao/matlab/MedidaHiato/imagens/medida_hiato.png> [20]
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.691 ...bf{Defasagem} & \textbf{Estatística t} &
+l.706 ...bf{Defasagem} & \textbf{Estatística t} &
                                                   
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[25]
+[21]
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.738 			& \textbf{Estimação}  &
+l.759 ...tbf{Estatística F}  & \textbf{P-valor} &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (77.51709pt too wide) in paragraph at lines 768--769
+\T1/lmr/m/n/10.95 zando o m�-todo n�o li-near de va-ri�-veis ins-tru-men-tais pro-posto por [][][][][][]
+ []
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.774 			& \textbf{Estimação}  &
                                   
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[26] (D:\Documents\Dissertacao\latex\Dissertação.bbl
+[22] (D:\Documents\Dissertacao\latex\Dissertação.bbl
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
@@ -1679,7 +1677,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[27]
+[23]
 
 ! Package inputenc Error: Unicode char \u8:�ti not set up for use with LaTeX.
 
@@ -1706,37 +1704,34 @@ l.116 {SURICO, P. The {Fed�
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-) [28]
-Overfull \hbox (76.61224pt too wide) in paragraph at lines 814--848
+) [24]
+Overfull \hbox (76.61224pt too wide) in paragraph at lines 845--879
  [][] 
  []
 
-[29] [30]
+[25] [26]
 \tf@toc=\write5
 \tf@lot=\write6
 \tf@lof=\write7
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 856.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 856.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 887.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 887.
 \BKM@file=\write8
  (D:\Documents\Dissertacao\latex\Dissertação.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 856.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 856.
-
-
-LaTeX Warning: There were undefined references.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 887.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 887.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 856.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 887.
  ) 
 Here is how much of TeX's memory you used:
- 17397 strings out of 493922
- 286574 string characters out of 3144893
- 475273 words of memory out of 3000000
- 20482 multiletter control sequences out of 15000+200000
- 83670 words of font info for 53 fonts, out of 3000000 for 9000
+ 17384 strings out of 493922
+ 286448 string characters out of 3144893
+ 475388 words of memory out of 3000000
+ 20471 multiletter control sequences out of 15000+200000
+ 63825 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,12n,37p,10384b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Dissertação.dvi (31 pages, 138036 bytes).
+Output written on Dissertação.dvi (26 pages, 135856 bytes).

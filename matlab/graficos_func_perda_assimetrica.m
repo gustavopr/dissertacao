@@ -68,7 +68,7 @@ legend('Gamma = -1.0', 'Location', 'SouthEast');
 
 % gráfico da funcao exponencial com Gamma positivo e  não suave
 
-Gamma = 10;
+Gamma = 100;
 
 l_exp = @(z) 1/(1+exp(Gamma*(z - c)));
 
@@ -81,7 +81,7 @@ legend('Gamma = 10.0', 'Location', 'NorthEast');
 
 % gráfico da funcao exponencial com Gamma negativo e  não suave
 
-Gamma = -10;
+Gamma = -100;
 
 l_exp = @(z) 1/(1+exp(Gamma*(z - c)));
 
@@ -108,35 +108,35 @@ data = x2mdate(x(:,1));
 h = figure(3);
 
 subplot(2,2,1);
-plot(data,x(:,4),'-k');
+plot(data,x(:,3),'-k');
 xlabel('Inflação esperada'); % x-axis label
 ylabel('%'); % y-axis label
 grid
-xlim([731582 736024]);
-dateaxis('x',12)
+xlim([731641 736024]);
+dateaxis('x',10)
 
 subplot(2,2,2);
-plot(data,x(:,7),'-k');
+plot(data,x(:,6),'-k');
 xlabel('Diferencial de inflação à meta'); % x-axis label
 ylabel('%'); % y-axis label
 grid
-xlim([731582 736024]);
-dateaxis('x',12)
+xlim([731641 736024]);
+dateaxis('x',10)
 
 subplot(2,2,3);
-plot(data,x(:,3),'-k');
+plot(data,x(:,2),'-k');
 xlabel('Taxa Selic Efetiva'); % x-axis label
 ylabel('%'); % y-axis label
 grid
-xlim([731582 736024]);
-dateaxis('x',12)
+xlim([731641 736024]);
+dateaxis('x',10)
 
 subplot(2,2,4);
-plot(data,x(:,2),'-k');
+plot(data,x(:,4),'-k');
 xlabel('Hiato do Produto'); % x-axis label
 grid
-xlim([731582 736024]);
-dateaxis('x',12)
+xlim([731641 736024]);
+dateaxis('x',10)
 
 set(h, 'Position', [0 0 900 700])
 h.PaperPosition = [0 0 900 700];

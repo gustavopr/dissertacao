@@ -145,14 +145,14 @@
 % ---
 % Capa
 % ---
-\imprimircapa
+% AAAA \imprimircapa
 % ---
 
 % ---
 % Folha de rosto
 % (o * indica que haverá a ficha bibliográfica)
 % ---
-\imprimirfolhaderosto*
+% AAAA \imprimirfolhaderosto*
 
 
 
@@ -171,37 +171,37 @@
 %     \includepdf{fig_ficha_catalografica.pdf}
 % \end{fichacatalografica}
 
-\begin{fichacatalografica}
-	\sffamily
-	\vspace*{\fill}					% Posição vertical
-	\begin{center}					% Minipage Centralizado
-	\fbox{\begin{minipage}[c][8cm]{13.5cm}		% Largura
-	\small
-	\imprimirautor
+% AAAA \begin{fichacatalografica}
+% AAAA 	\sffamily
+% AAAA 	\vspace*{\fill}					% Posição vertical
+% AAAA 	\begin{center}					% Minipage Centralizado
+% AAAA 	\fbox{\begin{minipage}[c][8cm]{13.5cm}		% Largura
+% AAAA 	\small
+% AAAA 	\imprimirautor
 	%Sobrenome, Nome do autor
 	
-	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
-	\imprimirlocal, \imprimirdata-
+% AAAA 	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
+% AAAA 	\imprimirlocal, \imprimirdata-
 	
-	\hspace{0.5cm} \pageref{LastPage} p. : il. ; 30 cm.\\
+% AAAA 	\hspace{0.5cm} \pageref{LastPage} p. : il. ; 30 cm.\\
 	
-	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
+% AAAA 	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
 	
-	\hspace{0.5cm}
-	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
-	\imprimirdata.}\\
+% AAAA 	\hspace{0.5cm}
+% AAAA 	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
+% AAAA 	\imprimirdata.}\\
 	
-	\hspace{0.5cm}
-		1. Palavra-chave1.
-		2. Palavra-chave2.
-		2. Palavra-chave3.
-		I. Orientador.
-		II. Universidade xxx.
-		III. Faculdade de xxx.
-		IV. Título 			
-	\end{minipage}}
-	\end{center}
-\end{fichacatalografica}
+% AAAA 	\hspace{0.5cm}
+% AAAA 		1. Palavra-chave1.
+% AAAA 		2. Palavra-chave2.
+% AAAA 		2. Palavra-chave3.
+% AAAA 		I. Orientador.
+% AAAA 		II. Universidade xxx.
+% AAAA 		III. Faculdade de xxx.
+% AAAA 		IV. Título 			
+% AAAA 	\end{minipage}}
+% AAAA 	\end{center}
+% AAAA \end{fichacatalografica}
 % ---
 
 % ---
@@ -215,67 +215,67 @@
 %
 % \includepdf{folhadeaprovacao_final.pdf}
 %
-\begin{folhadeaprovacao}
+% AAAA \begin{folhadeaprovacao}
 
-  \begin{center}
-    {\ABNTEXchapterfont\large\imprimirautor}
+% AAAA   \begin{center}
+% AAAA     {\ABNTEXchapterfont\large\imprimirautor}
 
-    \vspace*{\fill}\vspace*{\fill}
-    \begin{center}
-      \ABNTEXchapterfont\bfseries\Large\imprimirtitulo
-    \end{center}
-    \vspace*{\fill}
+% AAAA     \vspace*{\fill}\vspace*{\fill}
+% AAAA     \begin{center}
+% AAAA       \ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+% AAAA     \end{center}
+% AAAA     \vspace*{\fill}
     
-    \hspace{.45\textwidth}
-    \begin{minipage}{.5\textwidth}
-        \imprimirpreambulo
-    \end{minipage}%
-    \vspace*{\fill}
-   \end{center}
+% AAAA     \hspace{.45\textwidth}
+% AAAA     \begin{minipage}{.5\textwidth}
+% AAAA         \imprimirpreambulo
+% AAAA     \end{minipage}%
+% AAAA     \vspace*{\fill}
+% AAAA    \end{center}
         
    
 
-   \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
-   \assinatura{\textbf{Professor} \\ Convidado 1}
-   \assinatura{\textbf{Professor} \\ Convidado 2}
+% AAAA    \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
+% AAAA    \assinatura{\textbf{Professor} \\ Convidado 1}
+% AAAA    \assinatura{\textbf{Professor} \\ Convidado 2}
    %\assinatura{\textbf{Professor} \\ Convidado 3}
    %\assinatura{\textbf{Professor} \\ Convidado 4}
       
-   \begin{center}
-    \vspace*{0.5cm}
-    {\large\imprimirlocal}
-    \par
-    {\large\imprimirdata}
-    \vspace*{1cm}
-  \end{center}
+% AAAA    \begin{center}
+% AAAA     \vspace*{0.5cm}
+% AAAA     {\large\imprimirlocal}
+% AAAA     \par
+% AAAA     {\large\imprimirdata}
+% AAAA     \vspace*{1cm}
+% AAAA   \end{center}
   
-\end{folhadeaprovacao}
+% AAAA \end{folhadeaprovacao}
 % ---
 
 % ---
 % Dedicatória
 % ---
-\pagebreak
-\begin{dedicatoria}
-   \vspace*{\fill}
-   \centering
-   \noindent
-   \textit{ ``The boundaries of our country, sir? Why sir, on the north we are bounded by the Aurora Borealis, on the east we are bounded by the rising sun, on the south we are bounded by the procession of the Equinoxes, and on the west by the Day of Judgement.'' 	
-	— Neil Gaiman, American Gods } \vspace*
-	{\fill}
-\end{dedicatoria}
+% AAAA \pagebreak
+% AAAA \begin{dedicatoria}
+% AAAA    \vspace*{\fill}
+% AAAA    \centering
+% AAAA    \noindent
+% AAAA    \textit{ ``The boundaries of our country, sir? Why sir, on the north we are bounded by the Aurora Borealis, on the east we are bounded by the rising sun, on the south we are bounded by the procession of the Equinoxes, and on the west by the Day of Judgement.'' 	
+% AAAA 	— Neil Gaiman, American Gods } \vspace*
+% AAAA 	{\fill}
+% AAAA \end{dedicatoria}
 % ---
 
 % ---
 % Agradecimentos
 % ---
-\pagebreak
-\begin{agradecimentos}
-À minha família, pela base a partir da qual cresci. 
+% AAAA \pagebreak
+% AAAA \begin{agradecimentos}
+% AAAA À minha família, pela base a partir da qual cresci. 
 
-À minha namorada, pelo apoio e parceria.
+% AAAA À minha namorada, pelo apoio e parceria.
 
-\end{agradecimentos}
+% AAAA \end{agradecimentos}
 % ---
 
 
@@ -480,7 +480,7 @@
 
 	\begin{figure}[!h]
 	\includegraphics[scale=0.7]{D:/Documents/Dissertacao/imagens/funcao_perda_assimetrica.png}
-	\caption{Função de reação do banco~central~assimétrica~ao hiato~do produto~$(a)$ e~a~desvios~da~inflação~em~torno~da~meta~$(b)$}
+	\caption{Função de reação do banco central assimétrica ao hiato do \protect\linebreak produto $(a)$ e a desvios da inflação em torno da meta $(b)$}
 	\label{fig:funcao_reacao_assimetrica}
 	\end{figure}
 	
@@ -516,7 +516,7 @@
 	Como as formas funcionais de $f(.)$ e $h(.)$ não são explicitadas, não é possível resolver explicitamente a minimização da função de perda do banco central, como seria no caso de uma função quadrática. Diante disto, podemos apenas inferir algumas características da função de reação do mesmo e as relações com os dois tipos de assimetrias estudadas para as preferências do banqueiro central utilizando estatísticas comparativas. Diferenciando a condição de primeira ordem em $t=0$ com relação a $E_0\pi_1$, temos:
 	
 	\begin{equation}
-		\frac{di_0}{dE_0\pi_1} = \frac{1}{\varphi} \frac{\varphi A E_0 f_0^{''} [.] + \lambda(\varphi\lambda + b)E_0h_0^{''}[.]}{AE_0f_0^{''}[.] + \lambda^2E_0h_0^{''}[x]} \equiv \frac{\varphi A E_0 f_0^{''}[.] + \lambda(\varphi\lambda + b)E_0h_0^{''}[.]}{\varphi D}
+		\frac{di_0}{dE_0\pi_1} = \frac{1}{\varphi} \frac{\varphi A E_0 f_0^{''} [.] + \lambda(\varphi\lambda + b)E_0h_0^{''}[.]}{AE_0f_0^{''}[.] + \lambda^2E_0h_0^{''}[.]} \equiv \frac{\varphi A E_0 f_0^{''}[.] + \lambda(\varphi\lambda + b)E_0h_0^{''}[.]}{\varphi D}
 	\end{equation}
 	
 	É importante notar dois pontos: (1), a derivada acima é positiva, o que implica que o banco central reaje a aumentos da inflação esperada aumentando a taxa de juros e (2) o numerador é maior que o denominador, implicando que o aumento na taxa de juros nominal é maior do que o aumento nas expectativas de inflação.
@@ -524,7 +524,7 @@
 	Ao realizar a derivada acima em relação a $E_0x_1$, temos:
 	
 	\begin{equation}
-		\frac{di_0}{dE_0\x_1} = \frac{1}{\varphi} \frac{A(1+\varphi\lambdaE_0f_0^{''}[.] + \lambda^2(1 + \varphi\lambda + b)E_0h_0^{''}[.]}{D} 
+		\frac{di_0}{d E_0 x_1} = \frac{1}{\varphi} \frac{A (1 + \varphi \lambda ) E_0 f_0^{''}[.] + \lambda^2(1 + \varphi\lambda + b)E_0h_0^{''}[.]}{D} 
 	\end{equation}
 	
 	Esse resultado também é positivo, implicando que a taxa de juros se eleva em resposta a um aumento nas expectativas acerca do hiato do produto.
@@ -549,9 +549,9 @@
 		
 	 Na ausência de formas explícitas para as funções $h$ e $f$, a análise das terceiras derivadas dentro da função perda do banco central se dará de forma indireta, através da análise de possíveis não linearidades na regra de política monetária apresentada.  
 	
-	Por fim, para modelar a resposta não linear do banqueiro central, um modelo \textit{Smooth Transition Regression} (STR) é utilizado para a função de reação do banco central, incorporando funções de transição para o hiato do produto e desvios da inflação. Para tanto, estas funções são adicionadas à forma linear anteriormente exposta como variáveis de transição:
+	Por fim, para modelar a resposta não linear do banqueiro central, um modelo da classe \textit{Smooth Transition Regression} (STR) é utilizado para a função de reação do banco central, incorporando funções de transição para o hiato do produto e desvios da inflação. Para tanto, estas funções são adicionadas à forma linear anteriormente exposta como variáveis de transição:
 	
-	\begin{equation}
+	\begin{equation} \label{func_perda_nonlinear}
 		i_t^* = X_t \Beta + X_t \alpha_\pi \theta(\Gamma,c,z_{t-d}^\pi) + X_t \alpha_x \theta (\Gamma,c,z_{t-j}^x) + e_t
 	\end{equation}
 	%
@@ -561,7 +561,9 @@
 		\theta (\Gamma,c,z_{t-k}) = \frac{1}{1+e^{\Gamma (z_{t-k} - c)}} 
 	\end{eqnarray}
 	
-	A função logística permite mudanças entre dois regimes associados aos seus valores extremos, dados em $\theta (\Gamma,c,z_{t-k}) = 0$ e $\theta (\Gamma,c,z_{t-k}) = 1$. Dependendo do valor assumido pelo parâmetro $\Gamma$, ela pode assumir diferentes graus de suavização da transição entre estes valores extremos em termo do limiar de transição $c$, e, com $| \Gamma | \rightarrow \infty$, a transição se torna instantânea. Na Figura (\ref{fig:logistica}), vemos exemplos de transições suave e rápida, a depender do valor assumido para $\Gamma$. 
+	Uma característica essencial da equação (\ref{func_perda_nonlinear}) é que, para valores positivos ou negativos de $\alpha_\pi$ e de $\alpha_x$, a função perda é convexa ou côncava, respectivamente, nos desvios da inflação e no hiato do produto, conforme \citeonline{cukierman_muscatelli}. Assim, o sinal encontrado na estimação destes parâmetros permite a caracterização das preferências do banco central, tal como elaborado também por \citeonline{cukierman_muscatelli}.
+	
+	A função logística permite mudanças entre dois regimes associados aos seus valores extremos, dados em $\theta (\Gamma,c,z_{t-k}) = 0$ e $\theta (\Gamma,c,z_{t-k}) = 1$. Dependendo do valor assumido pelo parâmetro $\Gamma$, ela pode assumir diferentes graus de suavização da transição entre estes valores extremos em termo do limiar de transição $c$, e, com $| \Gamma | \rightarrow \infty$, a transição se torna instantânea. Na Figura (\ref{fig:logistica}), vemos exemplos de transições suave e rápida, a depender do valor assumido para $\Gamma$, assim como os impactos de valores positivos ou negativos. 
 	
 	
 	\hfill \break
@@ -571,12 +573,21 @@
 	\hfill \break
 	\hfill \break
 	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	\hfill \break
+	
 	
 	\begin{figure}[!h]
 	\includegraphics[scale=0.6]{D:/Documents/Dissertacao/imagens/logistica.png}
-	\caption{Em (a), função logistica com transição suave, em (b) temos uma transição quase instantânea. }
+	\caption{Em (a) e em (b), função logistica com transição suave, \protect\linebreak em (c) e em (d) temos uma transição quase instantânea. }
 	\label{fig:logistica}
 	\end{figure}
+	
+	
 	
 	Assim, para o hiato do produto, $\theta(.)$ assume a seguinte forma:
 	
@@ -608,7 +619,7 @@
 	
 	\section{Metodologia empírica}	
 	
-	\subsection{Método de estimação}
+	\subsection{Método de estimação} \label{secao_estimacao}
 	
 	Modelos STR são largamente utilizados para capturar comportamentos assimétricos de séries de tempo. Sobre a hipótese de exogeneidade, o método de estimação usualmente utilizado é o de Mínimos Quadrados Não Lineares. \citeonline{cukierman_muscatelli} e, por conseguinte, \citeonline{pagano_rossi} assumiram a exogeneidade das variáveis utilizadas na função reação do banco central e utilizaram Mínimos Quadrados para estimar os parâmetros do modelo STR estudado. Porém, na hipótese de que o hiato do produto e os desvios da inflação à meta são endógenos, tal estimação torna-se viesada.
 	
@@ -623,10 +634,15 @@
 	\subsection{Dados Utilizados}
 	Os dados utilizados têm início em janeiro de 2003 (início da série do IBC-Br) e fim em dezembro de 2014, com periodicidade mensal. Durante todo este período, o Brasil esteve sob regime de câmbio flutuante e de metas de inflação. Como medida de expectativa de inflação, será utilizada a expectativa 12 meses à frente suavizada das projeções Focus, pesquisa realizada pelo Banco Central do Brasil com participantes do mercado, do último dia útil de cada mês. O instrumento de política monetária a ser utilizado é a taxa Selic efetiva, definida pelo Banco Central através das operações de mercado aberto, enquanto a meta de inflação utilizada é aquela definida pelo CMN em cada período.
 	
-	Como medida de hiato do produto, é proposta neste trabalho a utilização de uma medida alternativa através de um indicador através da utilização de análise de componentes principais a uma gama de variáveis coincidentes de atividade. Isto é feito por dois motivos: extrair a tendência comum desta série de indicadores e conseguir uma medida quase em tempo real do nível de atividade, dado que o IBC-Br é divulgado com uma defasagem de aproximadamente dois meses do seu mês de referência. É importante notar, porém, que este processo é feito apenas uma vez utilizando-se a amostra inteira, não ocorrendo a reestimação do hiato do produto em cada período temporal.
+	Para a expectativa acerca do hiato do produto, utiliza-se uma estimativa para o hiato do produto efetivamente observado em cada período. Aqui é assumido que a expectativa sobre o hiato do produto é igual, em média, ao hiato do produto realizado, sobre a hipótese de expectativas racionais ($Ex_t = x_t + u$, onde $u$ é um erro com média zero e não predizível com base no conjunto de informações disponíveis em $t$).
+	
+	Como medida de hiato do produto, é utilizada neste trabalho uma medida alternativa construída através da utilização de análise de componentes principais sobre uma gama de variáveis coincidentes de atividade. Isto é feito por dois motivos: extrair a tendência comum desta série de indicadores e conseguir uma medida quase em tempo real do nível de atividade, dado que o IBC-Br é divulgado com uma defasagem de aproximadamente dois meses do seu mês de referência. É importante notar, porém, que este processo é feito apenas uma vez utilizando-se a amostra inteira, não ocorrendo a reestimação do hiato do produto em cada período temporal.
 	
 	As variáveis utilizadas se encontram na Figura (\ref{fig:variaveis}).
 	
+	\hfill \break
+	\hfill \break
+	\hfill \break
 	\hfill \break
 	\hfill \break
 	\hfill \break
@@ -682,7 +698,6 @@
 	
 	Testes ADF (\textit{Augmented Dickey-Fuller}) de raíz unitária foram realizados sobre as variáveis utilizadas. A defasagem ótima foi escolhida de acordo com o critério de informação de Schwarz. Para a Selic, foram incluídas uma constante e uma tendência linear. Todas as variáveis se mostraram estacionárias a um nível de significância de 10\% (Tabela (\ref{tab:testeADF})).
 	
-
 	
 	\begin{table}[H]
 		\centering
@@ -711,7 +726,7 @@
 		
 \subsection{Teste de não-linearidade}
 	
-	Considerando a equação (\ref{modelo_nao_linear}), testar a existência de não linearidade é equivalente a realizar um teste de hipótese onde $H_0: \Gamma = 0$ (que resulta na equação linear (\ref{linear}))  contra a hipótese alternativa $H_0: \Gamma > 0$. Como a equação (\ref{modelo_nao_linear}) é não identificável sobre a hipótese nula, utiliza-se uma expansão de Taylor de terceira ordem sobre a função $\theta(.)$ em torno do ponto $\Gamma = 0$, conforme \citeonline{terasvirta}:
+	Considerando a equação (\ref{modelo_nao_linear}), testar a existência de não linearidade é equivalente a realizar um teste de hipótese onde $H_0: \Gamma = 0$ (que resulta na equação linear (\ref{linear}))  contra a hipótese alternativa $H_0: \Gamma > 0$. Como a equação (\ref{modelo_nao_linear}) é não identificável sobre a hipótese nula (a hipótese de linearidade também se daria com $\alpha = 0$), utiliza-se uma expansão de Taylor de terceira ordem sobre a função $\theta(.)$ em torno do ponto $\Gamma = 0$, conforme \citeonline{terasvirta}:
 	
 	\begin{eqnarray} \label{teste_linearidade}
 		x_t =  X_t \lambda_0 + (X_t z_{t-k})' \lambda_1 + (X_t z_{t-k}^2)' \lambda_2 + (X_t z_{t-k}^3)' \lambda_3 + \nu_t
@@ -727,11 +742,32 @@
 	%
 	onde $SSE_n$ é a soma dos quadrados dos resíduos sobre a hipótese nula, $SSE_a$ é a soma dos quadrados dos resíduos da equação sobre a hipótese alternativa, $T$ é a quantidade de observações e $k$ a quantidade de restrições impostas.
 	
-	Como variáveis de transição, utilizamos o hiato do produto e os desvios da inflação à meta, pois buscamos caracterizar as preferências do Banco Central do Brasil acerca destas variáveis. O limiar de transição (parâmetro $c$) é igual a zero, pois se quer testar se existe não linearidade ao redor de desvios positivos ou negativos da inflação à meta e do hiato do produto ao redor do seu nível neutro.
 	
-	Abaixo, o resultado dos testes preliminares de não linearidade realizados. Como $H_0: \Gamma = 0$ resulta na equação linear (\ref{linear}), temos que os p-valores apresentados abaixo apontam para a existência de não linearidades na função (\ref{modelo_nao_linear}) tanto com relação ao hiato do produto quanto a desvios da inflação em relação à meta, quando testados contemporaneamente, conforme resultados contidos na Tabela (\ref{tab:testeLM}).
+	
+	\section{Estimação e resultados}
+	
+	Para o teste de não linearidade, utilizamos, como variáveis de transição, o hiato do produto e os desvios da inflação à meta, pois buscamos caracterizar as preferências do Banco Central do Brasil acerca destas variáveis. O limiar de transição (parâmetro $c$) é igual a zero, pois se quer testar se existe não linearidade ao redor de desvios positivos ou negativos da inflação à meta e do hiato do produto ao redor do seu nível neutro. 
+	
+	Também foram incluídas as variáveis $x_t$ e $E\pi_t$ com uma defasagem, procedimento que resultou em resíduos estimados sem estrutura de correlação. Como variáveis instrumentais, foram utilizadas quatro defasagens do hiato do produto, do diferencial de inflação e da taxa Selic efetiva.
+	
+	Abaixo, o resultado do teste realizado. Como $H_0: \Gamma = 0$ resulta na equação linear (\ref{linear}), temos que os p-valores apresentados abaixo apontam para a existência de não linearidades na função (\ref{modelo_nao_linear}) tanto com relação ao hiato do produto quanto a desvios da inflação em relação à meta, conforme resultados contidos na Tabela (\ref{tab:testeLM}). 
 	
 	\begin{table}[H]
+		\centering
+			\begin{tabular}{ccc}
+			\toprule
+			& \textbf{Estatística F}  & \textbf{P-valor} & 
+			\midrule
+			Hiato do produto &  9,7551 & 0,00 \\
+			Desvios da inflação &  4,0683 & 0,00 \\ \bottomrule
+			\end{tabular}
+		\caption{Função de reação linear - parâmetros estimados}
+		\label{tab:testeLM}
+	\end{table}	
+	
+	O próximo passo, então, é realizar a estimação da equação (\ref{modelo_nao_linear}) utilizando o método não linear de variáveis instrumentais proposto por \citeonline{areosa_econometrics} e apresentado na subseção (\ref{secao_estimacao}). Novamente Também foram incluídas as variáveis $x_t$ e $E\pi_t$ com uma defasagem e, como variáveis instrumentais, foram utilizadas quatro defasagens do hiato do produto, do diferencial de inflação e da taxa Selic efetiva.
+	
+		\begin{table}[H]
 		\centering
 			\begin{tabular}{cc}
 			\toprule
@@ -744,13 +780,8 @@
 			Desvios da Inflação & 9.9667 \\ \bottomrule
 			\end{tabular}
 		\caption{Função de reação linear - parâmetros estimados}
-		\label{tab:testeLM}
+		\label{tab:result}
 	\end{table}	
-	
-	
-	\section{Resultados Esperados}
-	
-	Na conclusão deste trabalho de pesquisa, espera-se implementar o método de estimação proposto por \citeonline{areosa_econometrics} e utilizá-lo no modelo teórico aqui apresentado. Com isto, espera-se podermos concluir sobre as preferências do Banco Central do Brasil sem precisar utilizarmos da hipótese de exogeneidade das variáveis utilizadas, principal crítica que temos aos trabalhos anteriores que seguiram esta linha de pesquisa.
 
 	\newpage
 

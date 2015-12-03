@@ -3,16 +3,15 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{6}{section.0.1}
+\contentsline {section}{\numberline {2}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{7}{section.0.2}
+\contentsline {section}{\numberline {3}Modelo Te\IeC {\'o}rico}{10}{section.0.3}
+\contentsline {section}{\numberline {4}Metodologia emp\IeC {\'\i }rica}{17}{section.0.4}
+\contentsline {subsection}{\numberline {4.1}M\IeC {\'e}todo de estima\IeC {\c c}\IeC {\~a}o}{17}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {4.2}Dados Utilizados}{18}{subsection.0.4.2}
+\contentsline {subsection}{\numberline {4.3}Teste de n\IeC {\~a}o-linearidade}{21}{subsection.0.4.3}
+\contentsline {section}{\numberline {5}Estima\IeC {\c c}\IeC {\~a}o e resultados}{21}{section.0.5}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{11}{section.0.1}
-\contentsline {section}{\numberline {2}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{12}{section.0.2}
-\contentsline {section}{\numberline {3}Modelo Te\IeC {\'o}rico}{15}{section.0.3}
-\contentsline {section}{\numberline {4}Metodologia emp\IeC {\'\i }rica}{21}{section.0.4}
-\contentsline {subsection}{\numberline {4.1}M\IeC {\'e}todo de estima\IeC {\c c}\IeC {\~a}o}{21}{subsection.0.4.1}
-\contentsline {subsection}{\numberline {4.2}Dados Utilizados}{22}{subsection.0.4.2}
-\contentsline {subsection}{\numberline {4.3}Teste de n\IeC {\~a}o-linearidade}{25}{subsection.0.4.3}
-\contentsline {section}{\numberline {5}Resultados Esperados}{26}{section.0.5}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{27}{section*.9}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{23}{section*.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Medida de Hiato Alternativa}}{29}{chapter.A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Medida de Hiato Alternativa}}{25}{chapter.A}
